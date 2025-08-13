@@ -3839,6 +3839,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -4388,6 +4574,41 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 22.86 156.21)
+		(end 53.34 213.36)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 156390f6-f6db-403f-9e9f-42695163a8f5)
+	)
+	(rectangle
+		(start 19.05 91.44)
+		(end 80.01 148.59)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e0e217e-a086-4299-aefb-ce11a1bc37d0)
+	)
+	(text "SI Board Connector"
+		(exclude_from_sim no)
+		(at 18.796 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "104b1bdd-c886-45ac-9635-947714e444e2")
+	)
 	(text "Speedometer"
 		(exclude_from_sim no)
 		(at 96.012 132.334 90)
@@ -4397,6 +4618,17 @@
 			)
 		)
 		(uuid "58a608c7-81b6-4a94-aadd-7d45e0228073")
+	)
+	(text "SI Bypass Option"
+		(exclude_from_sim no)
+		(at 22.86 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "699612d9-9702-4344-a1eb-8e7fb25c5b84")
 	)
 	(text "Tachometer"
 		(exclude_from_sim no)
@@ -4471,6 +4703,27 @@
 		)
 		(uuid "b992036a-13f2-4272-a883-1ffe60913a1d")
 	)
+	(text_box "Connect pads of JP1 to enable the functionality of the temperature sensor with no SI board present. "
+		(exclude_from_sim no)
+		(at 54.61 157.48 0)
+		(size 34.29 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d98a5a8c-2c95-40df-a363-fde043a648e1")
+	)
 	(text_box "Speed_pulse is RPM signal output from tachometer. \n\nDistance_pulse is the wheel speed output signal from the speedometer. "
 		(exclude_from_sim no)
 		(at 151.13 124.46 0)
@@ -4517,7 +4770,7 @@
 		(uuid "3107bb98-6bfd-4993-8e44-9a7399b4c038")
 	)
 	(junction
-		(at 224.79 184.15)
+		(at 210.82 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c9ef0f0-038e-47ee-91b4-581cdbac2f40")
@@ -4559,7 +4812,7 @@
 		(uuid "89fb7693-666a-49f6-90e0-58d45cbfb906")
 	)
 	(junction
-		(at 124.46 185.42)
+		(at 133.35 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e22a6c9-4aef-44b4-9130-1a272c4248ad")
@@ -4870,7 +5123,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 210.82) (xy 185.42 217.17)
+			(xy 171.45 215.9) (xy 171.45 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4950,7 +5203,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 182.88) (xy 224.79 184.15)
+			(xy 210.82 187.96) (xy 210.82 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4967,6 +5220,16 @@
 			(type default)
 		)
 		(uuid "2663b711-572f-4be4-9857-7bdc59866ff4")
+	)
+	(wire
+		(pts
+			(xy 36.83 190.5) (xy 36.83 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b950a37-044b-4360-bb91-7eb479eeb2a0")
 	)
 	(wire
 		(pts
@@ -4990,7 +5253,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 214.63) (xy 124.46 220.98)
+			(xy 133.35 218.44) (xy 133.35 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5170,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 184.15) (xy 124.46 185.42)
+			(xy 133.35 187.96) (xy 133.35 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5280,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 184.15) (xy 185.42 200.66)
+			(xy 171.45 189.23) (xy 171.45 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 212.09) (xy 92.71 218.44)
+			(xy 101.6 215.9) (xy 101.6 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5300,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 185.42) (xy 92.71 201.93)
+			(xy 101.6 189.23) (xy 101.6 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5350,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 184.15) (xy 224.79 184.15)
+			(xy 171.45 189.23) (xy 210.82 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5461,7 +5724,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 213.36) (xy 224.79 219.71)
+			(xy 210.82 218.44) (xy 210.82 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5501,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 194.31) (xy 224.79 198.12)
+			(xy 210.82 199.39) (xy 210.82 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5814,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 184.15) (xy 224.79 186.69)
+			(xy 210.82 189.23) (xy 210.82 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5824,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 205.74) (xy 238.76 205.74)
+			(xy 220.98 210.82) (xy 224.79 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5681,7 +5944,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 185.42) (xy 124.46 185.42)
+			(xy 101.6 189.23) (xy 133.35 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5791,7 +6054,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 185.42) (xy 124.46 187.96)
+			(xy 133.35 189.23) (xy 133.35 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5901,7 +6164,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 207.01) (xy 138.43 207.01)
+			(xy 143.51 210.82) (xy 147.32 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6008,6 +6271,16 @@
 			(type default)
 		)
 		(uuid "b0aac328-78f5-475b-9cf1-8b4f63047614")
+	)
+	(wire
+		(pts
+			(xy 36.83 179.07) (xy 36.83 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41fab50-a2ce-462f-b141-417257c19f90")
 	)
 	(wire
 		(pts
@@ -6262,7 +6535,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 195.58) (xy 124.46 199.39)
+			(xy 133.35 199.39) (xy 133.35 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6529,7 +6802,7 @@
 	)
 	(global_label "Low_Fuel_ind-"
 		(shape input)
-		(at 92.71 218.44 270)
+		(at 101.6 222.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6539,7 +6812,7 @@
 		)
 		(uuid "0fec9877-de90-4b65-a58b-24cc4758e714")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 235.3346 90)
+			(at 101.6 239.1446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,6 +6950,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Eng_temp_sensor"
+		(shape input)
+		(at 36.83 179.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "252c0de0-24dd-4e40-a44f-b308057f489c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 159.817 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6903,7 +7198,7 @@
 	)
 	(global_label "Temp_gauge"
 		(shape input)
-		(at 238.76 205.74 0)
+		(at 224.79 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6913,7 +7208,7 @@
 		)
 		(uuid "5a95d6e9-2e42-4ec8-9fe2-d30c50a96e54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2959 205.74 0)
+			(at 239.3259 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,6 +7350,28 @@
 			)
 		)
 	)
+	(global_label "Temp_gauge"
+		(shape input)
+		(at 36.83 194.31 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dfe5ec2-73d1-4025-a44c-268a0baf0bf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 208.8459 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Charge_ind-"
 		(shape input)
 		(at 113.03 127 0)
@@ -7079,7 +7396,7 @@
 	)
 	(global_label "Oil_pressure_ind-"
 		(shape input)
-		(at 185.42 217.17 270)
+		(at 171.45 222.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7089,7 +7406,7 @@
 		)
 		(uuid "790eb0d4-69ba-49f7-bda9-99ae2a94cefc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 237.2699 90)
+			(at 171.45 242.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7550,7 @@
 	)
 	(global_label "Fuel_level"
 		(shape input)
-		(at 138.43 207.01 0)
+		(at 147.32 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7243,7 +7560,7 @@
 		)
 		(uuid "8c367cfe-55f8-43e9-8280-d9d0f9ab1eb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8494 207.01 0)
+			(at 159.7394 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8486,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 124.46 184.15 0)
+		(at 133.35 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8178,7 +8495,7 @@
 		(fields_autoplaced yes)
 		(uuid "05b8ff4d-51dc-4820-b99e-d3d6fcaadb1c")
 		(property "Reference" "#PWR040"
-			(at 124.46 187.96 0)
+			(at 133.35 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8504,7 @@
 			)
 		)
 		(property "Value" "+12 T15"
-			(at 124.46 179.07 0)
+			(at 133.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 184.15 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,7 +8521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 184.15 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +8530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 124.46 184.15 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +9018,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 92.71 207.01 180)
+		(at 101.6 210.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8709,7 +9026,7 @@
 		(dnp no)
 		(uuid "28509b0f-e8cc-4786-ad05-71e2192cbd1b")
 		(property "Reference" "LA14"
-			(at 100.33 207.01 0)
+			(at 109.22 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +9035,7 @@
 			)
 		)
 		(property "Value" "Fuel Reserve"
-			(at 87.63 206.756 90)
+			(at 96.52 210.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +9043,7 @@
 			)
 		)
 		(property "Footprint" "BMW_Connectors:2721MF"
-			(at 92.71 209.55 90)
+			(at 101.6 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +9052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 209.55 90)
+			(at 101.6 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +9061,7 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 92.71 207.01 0)
+			(at 101.6 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9926,7 @@
 	)
 	(symbol
 		(lib_id "BMW_Custom:Moving_Coil_Gauge")
-		(at 124.46 207.01 0)
+		(at 133.35 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9618,7 +9935,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c6811c9-2725-4b0f-b649-043ff981a1b6")
 		(property "Reference" "U2"
-			(at 113.03 205.7399 0)
+			(at 121.92 209.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9944,7 @@
 			)
 		)
 		(property "Value" "Fuel Gauge"
-			(at 113.03 208.2799 0)
+			(at 121.92 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +9953,7 @@
 			)
 		)
 		(property "Footprint" "BMW_Cluster_Connectors:Gauge_fuel_temp"
-			(at 127 207.01 0)
+			(at 135.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +9962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 207.01 0)
+			(at 135.89 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9971,7 @@
 			)
 		)
 		(property "Description" "Moving coil voltmeter style gauge"
-			(at 124.46 207.01 0)
+			(at 133.35 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10405,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 224.79 182.88 0)
+		(at 210.82 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10097,7 +10414,7 @@
 		(fields_autoplaced yes)
 		(uuid "795c84b5-518a-43c4-8df9-f17f1affd752")
 		(property "Reference" "#PWR039"
-			(at 224.79 186.69 0)
+			(at 210.82 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10423,7 @@
 			)
 		)
 		(property "Value" "+12 T15"
-			(at 224.79 177.8 0)
+			(at 210.82 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 182.88 0)
+			(at 210.82 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +10440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 182.88 0)
+			(at 210.82 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 224.79 182.88 0)
+			(at 210.82 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10471,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 190.5 0)
+		(at 210.82 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10163,7 +10480,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ec6f3a7-3c2d-4582-b4dc-d77c26fea169")
 		(property "Reference" "R2"
-			(at 227.33 189.2299 0)
+			(at 213.36 194.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +10489,7 @@
 			)
 		)
 		(property "Value" "68R"
-			(at 227.33 191.7699 0)
+			(at 213.36 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10498,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 223.012 190.5 90)
+			(at 209.042 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +10507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 190.5 0)
+			(at 210.82 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +10516,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 190.5 0)
+			(at 210.82 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,6 +10920,77 @@
 			(project ""
 				(path "/4249c601-dbd7-436e-951f-43ef1c4e51e8"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 36.83 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8760a6-bcf5-4aa1-8d17-fc28c8e1cc03")
+		(property "Reference" "JP1"
+			(at 39.37 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SI BYPASS"
+			(at 39.37 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 36.83 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 36.83 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd88e543-27bc-4e82-b146-df379885c788")
+		)
+		(pin "1"
+			(uuid "2ad77865-c1dd-4ccc-98b8-596f1f6e4a74")
+		)
+		(instances
+			(project ""
+				(path "/4249c601-dbd7-436e-951f-43ef1c4e51e8"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -11622,7 +12010,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 191.77 0)
+		(at 133.35 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11631,7 +12019,7 @@
 		(fields_autoplaced yes)
 		(uuid "b012cb21-9e2e-4c14-ba8f-6e005fe33da1")
 		(property "Reference" "R3"
-			(at 127 190.4999 0)
+			(at 135.89 194.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11640,7 +12028,7 @@
 			)
 		)
 		(property "Value" "68R"
-			(at 127 193.0399 0)
+			(at 135.89 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11649,7 +12037,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 122.682 191.77 90)
+			(at 131.572 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11658,7 +12046,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 191.77 0)
+			(at 133.35 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11667,7 +12055,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 191.77 0)
+			(at 133.35 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +12146,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 224.79 219.71 0)
+		(at 210.82 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11767,7 +12155,7 @@
 		(fields_autoplaced yes)
 		(uuid "baf66412-c4de-4590-ab09-6b6814940717")
 		(property "Reference" "#PWR037"
-			(at 224.79 224.79 0)
+			(at 210.82 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +12164,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 224.663 223.52 0)
+			(at 210.693 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11784,7 +12172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 220.98 0)
+			(at 210.82 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,7 +12181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 220.98 0)
+			(at 210.82 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11802,7 +12190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 224.79 219.71 0)
+			(at 210.82 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11956,7 +12344,7 @@
 	)
 	(symbol
 		(lib_id "BMW_Custom:Moving_Coil_Gauge")
-		(at 224.79 205.74 0)
+		(at 210.82 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11965,7 +12353,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ec2a0a-2545-4e0b-aadd-64f06cb587e5")
 		(property "Reference" "U1"
-			(at 213.36 204.4699 0)
+			(at 199.39 209.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +12362,7 @@
 			)
 		)
 		(property "Value" "Temperature Gauge"
-			(at 213.36 207.0099 0)
+			(at 199.39 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11983,7 +12371,7 @@
 			)
 		)
 		(property "Footprint" "BMW_Cluster_Connectors:Gauge_fuel_temp"
-			(at 227.33 205.74 0)
+			(at 213.36 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,7 +12380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 205.74 0)
+			(at 213.36 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12001,7 +12389,7 @@
 			)
 		)
 		(property "Description" "Moving coil voltmeter style gauge"
-			(at 224.79 205.74 0)
+			(at 210.82 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12701,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 185.42 205.74 0)
+		(at 171.45 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12321,7 +12709,7 @@
 		(dnp no)
 		(uuid "ddeb7669-271c-484a-95e3-51da7cfe2e81")
 		(property "Reference" "LA12"
-			(at 177.8 205.74 0)
+			(at 163.83 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,7 +12718,7 @@
 			)
 		)
 		(property "Value" "Oil Pressure"
-			(at 189.992 205.74 90)
+			(at 176.022 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,7 +12726,7 @@
 			)
 		)
 		(property "Footprint" "BMW_Connectors:2721MF"
-			(at 185.42 203.2 90)
+			(at 171.45 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12347,7 +12735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 203.2 90)
+			(at 171.45 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +12744,7 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 185.42 205.74 0)
+			(at 171.45 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12835,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 124.46 220.98 0)
+		(at 133.35 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12456,7 +12844,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5b61e4d-535c-46bd-b746-b94f12a298ba")
 		(property "Reference" "#PWR038"
-			(at 124.46 226.06 0)
+			(at 133.35 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12853,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 124.333 224.79 0)
+			(at 133.223 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +12861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 222.25 0)
+			(at 133.35 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12482,7 +12870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 222.25 0)
+			(at 133.35 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,7 +12879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 124.46 220.98 0)
+			(at 133.35 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
