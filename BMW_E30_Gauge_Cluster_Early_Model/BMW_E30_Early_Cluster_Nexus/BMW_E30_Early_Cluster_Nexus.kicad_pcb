@@ -58492,7 +58492,7 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 18 3.04)
+			(at 18.24 3.04)
 			(size 2.21 2.21)
 			(drill 2.2098)
 			(layers "*.Cu" "*.Mask")
