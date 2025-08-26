@@ -1,0 +1,112 @@
+(footprint "Speedometer_Galvanometer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad023272-995b-429f-9057-d996bb06b871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Speedometer_Galvanometer"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de794849-52a3-408b-ab53-2f23a29e0dd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f1d76a8-7421-44df-bf00-a5b6f2ec25f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8f0896c-01a0-4cbe-a4d5-ae23505706d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "+"
+		(at 1.5 7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2ff5615c-2660-48e3-93c2-f89aff3588e3")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 1.5 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "56afe8db-be13-4056-9cf0-a3a13f2dfaf2")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f508a24a-1bec-429a-962b-2b2d5950bc3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -7.5)
+		(size 3 3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "269fba6a-ff78-4ece-8f94-cdf8d7ed12e3")
+	)
+	(pad "2" thru_hole circle
+		(at 0 7.5)
+		(size 3 3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "015644c7-e0cf-4576-99d5-432ffedc89d0")
+	)
+	(embedded_fonts no)
+)

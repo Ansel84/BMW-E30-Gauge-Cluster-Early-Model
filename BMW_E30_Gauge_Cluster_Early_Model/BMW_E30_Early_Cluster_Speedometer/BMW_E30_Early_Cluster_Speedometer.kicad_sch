@@ -5,7 +5,8 @@
 	(uuid "9a835706-2a71-4b4d-aadf-5c5569044960")
 	(paper "A4")
 	(title_block
-		(title "BMW E30 Speedometer Driver")
+		(title "BMW E30 Speedometer Driver Schematic")
+		(company "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "BMW_ICs:UAF2115"
@@ -1644,8 +1645,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 3.81 2.54 0)
+			(property "Reference" "M1"
+				(at 5.08 2.121 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1653,13 +1654,13 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Stepper_Motor_bipolar"
-				(at 3.81 1.27 0)
+			(property "Value" "Odometer"
+				(at 5.08 -0.419 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1907,7 +1908,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1943,7 +1944,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3982,7 +3983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:Speedometer_Galvanometer"
 			(at 214.63 72.39 90)
 			(effects
 				(font
@@ -4300,7 +4301,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85a02ab4-d3ee-4546-af8d-b8abf47afa25")
 		(property "Reference" "J2"
 			(at 75.692 87.63 0)
@@ -4652,7 +4653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
+		(property "Value" ".047u"
 			(at 271.78 107.9499 0)
 			(effects
 				(font
@@ -4661,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 268.9352 110.49 0)
 			(effects
 				(font
@@ -4863,7 +4864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:Odometer_Stepper"
 			(at 121.666 87.884 0)
 			(effects
 				(font
@@ -4872,7 +4873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
+		(property "Datasheet" ""
 			(at 121.666 87.884 0)
 			(effects
 				(font
@@ -4881,7 +4882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4-wire bipolar stepper motor"
+		(property "Description" "Odometer Stepper Motor"
 			(at 121.92 87.63 0)
 			(effects
 				(font
@@ -4893,7 +4894,7 @@
 		(pin "1"
 			(uuid "f26d1513-eb6a-4824-aec1-6d2787fde409")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "3e17a650-7d66-4197-9ac2-15d46d8dc969")
 		)
 		(pin "2"
@@ -5214,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:Connector_Speedometer"
 			(at 72.39 64.77 0)
 			(effects
 				(font
