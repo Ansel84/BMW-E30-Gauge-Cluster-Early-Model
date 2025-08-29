@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Connector V for early model cluster, connects nexus board to SI board. ")
 	(property "Reference" "J**"
-		(at -3.5 -9 0)
+		(at -3.5 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a80d2af6-66c9-46ea-b550-f303b53565b4")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Connector V"
-		(at 0 -13 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "909f430f-b2b9-401f-b07c-2703e715ba80")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,7 +56,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "A"
-		(at -4.5 5 0)
+		(at -4.5 12 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "5c629d69-6226-4702-a11f-655c581c8771")
@@ -69,7 +69,7 @@
 		)
 	)
 	(fp_text user "31b"
-		(at -4.5 1.5 0)
+		(at -4.5 8.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "5e80b759-2b6f-474c-9f14-cd74ebf3324d")
@@ -82,7 +82,7 @@
 		)
 	)
 	(fp_text user "31"
-		(at -4.5 -2 0)
+		(at -4.5 5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "839de90d-6b5e-495c-94b9-359c444da9a3")
@@ -95,7 +95,7 @@
 		)
 	)
 	(fp_text user "61"
-		(at -4.5 -5.5 0)
+		(at -4.5 1.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "b8396ca3-6fa1-4cde-a722-50cbe6ae990d")
@@ -108,7 +108,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at -4.5 9 0)
+		(at -4.5 16 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "ef3d5599-4585-44d2-8ba3-ab601544faf3")
@@ -121,7 +121,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -11.5 0)
+		(at 0 -4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0380a26f-2d26-4c94-b49c-1498411fcc02")
@@ -133,7 +133,7 @@
 		)
 	)
 	(pad "12" thru_hole oval
-		(at 0 -7 90)
+		(at 0 0 90)
 		(size 2.9 9)
 		(drill oval 2 3.4
 			(offset -0.5 0)
@@ -144,7 +144,7 @@
 		(uuid "51976295-f52f-4703-99c6-9c860b954ab1")
 	)
 	(pad "13" thru_hole oval
-		(at 0 -3.5 90)
+		(at 0 3.5 90)
 		(size 2.9 9)
 		(drill oval 2 3.4
 			(offset -0.5 0)
@@ -155,7 +155,7 @@
 		(uuid "91f96cad-53eb-4504-be54-b3012ab70587")
 	)
 	(pad "14" thru_hole oval
-		(at 0 0 90)
+		(at 0 7 90)
 		(size 2.9 9)
 		(drill oval 2 3.4
 			(offset -0.5 0)
@@ -166,7 +166,7 @@
 		(uuid "e6da8d03-821f-4e45-83bb-729cfa674b89")
 	)
 	(pad "15" thru_hole oval
-		(at 0 3.5 90)
+		(at 0 10.5 90)
 		(size 2.9 9)
 		(drill oval 2 3.4
 			(offset -0.5 0)
@@ -177,7 +177,7 @@
 		(uuid "cf1855d1-d3db-458b-880c-d65b85a2dcd8")
 	)
 	(pad "16" thru_hole oval
-		(at 0 7 90)
+		(at 0 14 90)
 		(size 2.9 9)
 		(drill oval 2 3.4
 			(offset -0.5 0)
