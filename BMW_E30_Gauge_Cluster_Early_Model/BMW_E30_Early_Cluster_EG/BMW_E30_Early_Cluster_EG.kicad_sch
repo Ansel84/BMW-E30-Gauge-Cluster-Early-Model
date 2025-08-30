@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "87822f16-f981-4ad2-bfeb-178300c0bdac")
+	(paper "A4")
+	(title_block
+		(title "BMW E30 Gauge Cluster Economy Gauge")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
