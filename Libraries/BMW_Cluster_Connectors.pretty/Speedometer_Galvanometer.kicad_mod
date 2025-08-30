@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ad023272-995b-429f-9057-d996bb06b871")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Speedometer_Galvanometer"
-		(at 0 -0.5 0)
+		(at 0 7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "de794849-52a3-408b-ab53-2f23a29e0dd1")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "+"
-		(at 1.5 7 0)
+		(at 1.5 14.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2ff5615c-2660-48e3-93c2-f89aff3588e3")
@@ -68,7 +68,7 @@
 		)
 	)
 	(fp_text user "-"
-		(at 1.5 -5.5 0)
+		(at 1.5 2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "56afe8db-be13-4056-9cf0-a3a13f2dfaf2")
@@ -81,7 +81,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 1 0)
+		(at 0 8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f508a24a-1bec-429a-962b-2b2d5950bc3b")
@@ -93,7 +93,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 -7.5)
+		(at 0 0)
 		(size 3 3)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -101,7 +101,7 @@
 		(uuid "269fba6a-ff78-4ece-8f94-cdf8d7ed12e3")
 	)
 	(pad "2" thru_hole circle
-		(at 0 7.5)
+		(at 0 15)
 		(size 3 3)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
