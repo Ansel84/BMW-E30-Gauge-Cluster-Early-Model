@@ -878,6 +878,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2408,240 +2608,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Magnetic:A1302xUA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "A1302xUA"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92S"
-				(at 0 -17.018 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Linear Hall Effect Sensor, 1.3 mV/G, 4.5-6.0V supply, TO-92S (3-pin SIP)"
-				(at 0 -14.986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ratiometric Obsolete"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*TO?92S*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "A1302xUA_0_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.699 0.381) (xy -4.953 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.699 0.381) (xy -4.445 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.4544 0.8382) (xy -2.8702 0.254) (xy -2.6162 0.508) (xy -3.2004 1.0922) (xy -3.4544 0.8382)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -0.635 0.381)
-					(mid -2.667 -1.651)
-					(end -4.699 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.381) (xy -0.889 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.381) (xy -0.381 0.127)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "A1302xUA_1_1"
-				(circle
-					(center -2.667 0.381)
-					(radius 1.524)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.6162 0.508) (xy -1.9304 -0.1778) (xy -2.1844 -0.4318) (xy -2.8702 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "V_{CC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "V_{OUT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:BC327"
 			(pin_names
 				(offset 0)
@@ -3334,6 +3300,27 @@
 		)
 		(uuid "fe93832f-6cbe-44b9-bab8-f46fa55aab36")
 	)
+	(text_box "NOTE: R14 is a precision resistor using tuned traces on a separate PCB. This is present on certain versions of the board and replaces R4 and R5. "
+		(exclude_from_sim no)
+		(at 27.94 78.74 0)
+		(size 24.13 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "088c9266-e2b7-466a-b343-85ba4c054a32")
+	)
 	(text_box "NOTE: R1 is a bias resistor which needs to be set depending on the specific speedometer gauge. This needs to be matched to the original resistor from your old board. "
 		(exclude_from_sim no)
 		(at 161.29 114.3 0)
@@ -3354,6 +3341,12 @@
 			(justify left top)
 		)
 		(uuid "870a60af-f69a-43e7-b329-fbfb8a50ae16")
+	)
+	(junction
+		(at 331.47 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0491379f-98de-44e6-8303-b5758bc3c53c")
 	)
 	(junction
 		(at 288.29 184.15)
@@ -3541,11 +3534,9 @@
 		(color 0 0 0 0)
 		(uuid "e8bfaf24-fd9f-48c5-b5f3-05324ef9ac5d")
 	)
-	(junction
-		(at 335.28 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f73045ef-7d9c-4915-937b-7148b1922315")
+	(no_connect
+		(at 332.74 158.75)
+		(uuid "0b6688c8-fe99-434e-bac7-2df7abcb36dc")
 	)
 	(wire
 		(pts
@@ -3676,16 +3667,6 @@
 			(type default)
 		)
 		(uuid "19c44eea-053c-49af-a4c8-5ad040628c9c")
-	)
-	(wire
-		(pts
-			(xy 321.31 151.13) (xy 325.12 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a88f186-808a-488a-b420-0838cbec51f5")
 	)
 	(wire
 		(pts
@@ -3899,6 +3880,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 166.37) (xy 325.12 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ade15d1-15af-4acb-abf2-97e8b77e31cf")
+	)
+	(wire
+		(pts
 			(xy 288.29 180.34) (xy 288.29 184.15)
 		)
 		(stroke
@@ -3906,6 +3897,16 @@
 			(type default)
 		)
 		(uuid "3dd4653d-855b-4418-b23c-272c51bafc86")
+	)
+	(wire
+		(pts
+			(xy 325.12 153.67) (xy 332.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb764ea-f668-45e4-8803-0b4d1a467d19")
 	)
 	(wire
 		(pts
@@ -3919,13 +3920,13 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 116.84) (xy 335.28 140.97)
+			(xy 331.47 156.21) (xy 331.47 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43058174-27ca-423e-801f-9d40ad6a02db")
+		(uuid "4284471a-fdff-447f-a010-c9e8c24ba262")
 	)
 	(wire
 		(pts
@@ -4206,16 +4207,6 @@
 			(type default)
 		)
 		(uuid "6e8a5e91-43d6-4c39-9c04-29a92df8eee1")
-	)
-	(wire
-		(pts
-			(xy 335.28 161.29) (xy 335.28 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ebddc2f-0e8d-4554-a396-cf4e2f244f8a")
 	)
 	(wire
 		(pts
@@ -4529,7 +4520,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 116.84) (xy 335.28 116.84)
+			(xy 254 116.84) (xy 331.47 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4609,13 +4600,23 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 115.57) (xy 335.28 116.84)
+			(xy 331.47 111.76) (xy 331.47 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c30dc999-9e91-49cd-85ba-7977f6c9f136")
+	)
+	(wire
+		(pts
+			(xy 332.74 156.21) (xy 331.47 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61ce675-7642-4e30-acc3-6343c46d0e49")
 	)
 	(wire
 		(pts
@@ -4796,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "e9d56303-d67e-4986-bd26-57c0baca0f93")
+	)
+	(wire
+		(pts
+			(xy 321.31 151.13) (xy 332.74 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9993d2-0db1-4c8d-84af-9fdd8c298b2a")
 	)
 	(wire
 		(pts
@@ -5097,7 +5108,7 @@
 	)
 	(global_label "T15_Protected"
 		(shape input)
-		(at 335.28 115.57 90)
+		(at 331.47 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5107,7 +5118,7 @@
 		)
 		(uuid "c424f89d-d612-423c-a775-1e63938a0253")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.28 99.1592 90)
+			(at 331.47 95.3492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,6 +5537,81 @@
 			(project ""
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 337.82 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d2c822a-bc0b-4310-82d1-1eae182a422b")
+		(property "Reference" "J3"
+			(at 340.36 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "To Hall effect board"
+			(at 340.106 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 337.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 337.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5b8f7c1d-d505-4e0e-8e7d-b7b8d94a26ca")
+		)
+		(pin "2"
+			(uuid "0f36ddbe-a130-4b7b-88a2-582ee54f9ac0")
+		)
+		(pin "1"
+			(uuid "f61733f2-1fff-4f12-8a14-22b810140f68")
+		)
+		(pin "4"
+			(uuid "15ca27b3-ddd2-4a46-ae1f-86d9a3bde06f")
+		)
+		(instances
+			(project ""
+				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6776,71 +6862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 335.28 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61a77b0c-a656-41c3-bc3f-4a3a1d74c694")
-		(property "Reference" "#PWR016"
-			(at 335.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 335.28 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 335.28 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4bb6730-0e27-4eed-be8f-9580ff3bdb60")
-		)
-		(instances
-			(project "BMW_E30_Early_Cluster_Speedometer"
-				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 35.56 106.68 0)
 		(mirror y)
@@ -7546,80 +7567,6 @@
 			(project ""
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Magnetic:A1302xUA")
-		(at 332.74 151.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8764f603-5994-4485-8075-82e115dbaf66")
-		(property "Reference" "U2"
-			(at 340.36 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UGS 3020"
-			(at 340.36 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92S"
-			(at 332.74 168.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 166.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c50d8153-098d-454c-902d-db5e96989a6f")
-		)
-		(pin "1"
-			(uuid "a94ab851-dc78-4d81-bc41-648cd3d517d2")
-		)
-		(pin "2"
-			(uuid "09aca870-33f9-4e4e-a6da-0a76b11a236f")
-		)
-		(instances
-			(project ""
-				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8342,6 +8289,71 @@
 			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 325.12 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b150b652-fef4-4c57-a1eb-534d817bc04b")
+		(property "Reference" "#PWR08"
+			(at 325.12 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f127ffde-bd3e-4428-8fc6-70d2d0945bdd")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_Speedometer"
+				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
