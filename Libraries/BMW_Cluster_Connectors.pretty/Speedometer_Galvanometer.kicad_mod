@@ -54,6 +54,28 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center 1.4 -5)
+		(end 2.6 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "54407a80-f75e-4ad9-b68a-bd70294da633")
+	)
+	(fp_circle
+		(center 1.4 20)
+		(end 2.6 20)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "57c64939-b73f-46db-80bd-86904220b49c")
+	)
 	(fp_text user "+"
 		(at 1.5 14.5 0)
 		(unlocked yes)
