@@ -4640,27 +4640,6 @@
 		)
 		(uuid "a04e6f79-3601-4f36-a345-428527e7a585")
 	)
-	(text_box "TODO: Verify actual functionality of J4 pins 7 and 8 due to conflicts between pinout diagram and ETM. "
-		(exclude_from_sim no)
-		(at 151.13 140.97 0)
-		(size 34.29 10.16)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 255 0 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7bece59f-148c-4d02-896b-e655302895e2")
-	)
 	(text_box "T15_ACC comes from fuse 12 and is hot in accessory, run, or start conditions. "
 		(exclude_from_sim no)
 		(at 151.13 114.3 0)

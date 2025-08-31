@@ -440,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -450,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BMW_E30_Early_Cluster_Tach_EG.kicad_pro",
+    "filename": "BMW_E30_Early_Cluster_Tachometer.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -608,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "b216cb44-2546-4a52-a541-225697d17737",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
