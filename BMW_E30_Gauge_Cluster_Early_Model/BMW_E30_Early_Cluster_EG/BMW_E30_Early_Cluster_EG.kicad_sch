@@ -9,6 +9,801 @@
 		(company "Reagan Ansel")
 	)
 	(lib_symbols
+		(symbol "4xxx:4049"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4049"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex Buffer Inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CMOS BUFFER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?16*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4049_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4049_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4049_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4049_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4049_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4049_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4049_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4049_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4xxx_IEEE:4584"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4584"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4584_0_0"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -1.524 -1.27) (xy -2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.27) (xy -1.524 1.27) (xy -2.54 -1.27) (xy -3.302 -1.27) (xy -3.302 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.048) (xy 2.54 1.524) (xy 3.302 2.286) (xy 2.54 3.048) (xy 2.54 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "4584_0_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4584_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4584_2_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4584_3_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4584_4_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4584_5_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4584_6_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1134,6 +1929,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM2931-5.0_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM2931-5.0_TO220"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2931-n.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100 mA 60V Linear Low Dropout Regulator, Fixed Output 5V, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Low Dropout Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM2931-5.0_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM2931-5.0_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC547"
 			(pin_names
 				(offset 0)
@@ -1725,6 +2661,18 @@
 		)
 		(uuid "86da03e7-3057-41b9-b656-1b482495190c")
 	)
+	(junction
+		(at 55.88 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "508ef025-0af8-4c8c-917e-3d6eec9a105f")
+	)
+	(junction
+		(at 58.42 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515c5745-d69d-4f2e-b777-de92245bc810")
+	)
 	(wire
 		(pts
 			(xy 35.56 115.57) (xy 44.45 115.57)
@@ -1897,6 +2845,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 85.09) (xy 62.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fe65b8-88c3-4a6f-8a50-3584060626f2")
+	)
+	(wire
+		(pts
 			(xy 67.31 87.63) (xy 43.18 87.63)
 		)
 		(stroke
@@ -2035,6 +2993,38 @@
 		)
 		(uuid "ebc3d263-0d90-4c4c-8c12-5993f5a83e5e")
 	)
+	(wire
+		(pts
+			(xy 58.42 82.55) (xy 62.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4400eaa-114f-4573-8498-a1ecb78ff761")
+	)
+	(global_label "Engine_speed_input"
+		(shape input)
+		(at 62.23 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d10a35b-d232-46ed-b565-2236722082de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7206 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Cylinder_count"
 		(shape input)
 		(at 35.56 115.57 180)
@@ -2076,6 +3066,132 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "Speed_pulse"
+		(shape input)
+		(at 62.23 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd0f819f-fda9-4a21-a536-568e7958360e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.9474 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx_IEEE:4584")
+		(at 256.54 121.92 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003c7355-e205-4909-8e14-9794aac23b91")
+		(property "Reference" "U2"
+			(at 264.16 115.4998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4584"
+			(at 264.16 118.0398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2f36abfe-1224-40e5-91ab-fe010f54fded")
+		)
+		(pin "1"
+			(uuid "02c035fd-be0e-4666-a642-76bebeedee8c")
+		)
+		(pin "7"
+			(uuid "30921921-bb9a-42f6-8dca-1453add5cead")
+		)
+		(pin "2"
+			(uuid "8d563e27-493a-48ba-8858-8aa4e8af2a0b")
+		)
+		(pin "5"
+			(uuid "ec6e37cc-2854-4047-b847-e33adb374924")
+		)
+		(pin "13"
+			(uuid "d4773732-c449-4b0e-bc18-126fc4849555")
+		)
+		(pin "3"
+			(uuid "d78ba42e-2ffa-4e8c-b5c4-5c94b9ae0418")
+		)
+		(pin "12"
+			(uuid "c914a062-615e-45f6-b0f8-a1b6bb2a6852")
+		)
+		(pin "14"
+			(uuid "999e0674-21fe-4a8e-957d-310124401c82")
+		)
+		(pin "9"
+			(uuid "d6e2e5ed-f61a-46a5-a520-1ed843d59af2")
+		)
+		(pin "8"
+			(uuid "0c2cbea6-cc18-4dd9-b0c2-a3e6344f84d3")
+		)
+		(pin "11"
+			(uuid "c6e26251-afd8-49cb-9dfe-f368f6d13b35")
+		)
+		(pin "10"
+			(uuid "4b3b4f5b-3a94-46b2-bd75-1322b1fbacbe")
+		)
+		(pin "6"
+			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91a")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U2")
+					(unit 3)
+				)
 			)
 		)
 	)
@@ -2310,6 +3426,110 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx_IEEE:4584")
+		(at 243.84 72.39 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c4d0085-714b-4674-8db8-8810d8c77e7b")
+		(property "Reference" "U2"
+			(at 251.46 65.9698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4584"
+			(at 251.46 68.5098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2f36abfe-1224-40e5-91ab-fe010f54fded")
+		)
+		(pin "1"
+			(uuid "02c035fd-be0e-4666-a642-76bebeedee8c")
+		)
+		(pin "7"
+			(uuid "30921921-bb9a-42f6-8dca-1453add5cead")
+		)
+		(pin "2"
+			(uuid "8d563e27-493a-48ba-8858-8aa4e8af2a0b")
+		)
+		(pin "5"
+			(uuid "ec6e37cc-2854-4047-b847-e33adb374924")
+		)
+		(pin "13"
+			(uuid "d4773732-c449-4b0e-bc18-126fc4849555")
+		)
+		(pin "3"
+			(uuid "d78ba42e-2ffa-4e8c-b5c4-5c94b9ae0418")
+		)
+		(pin "12"
+			(uuid "c914a062-615e-45f6-b0f8-a1b6bb2a6852")
+		)
+		(pin "14"
+			(uuid "999e0674-21fe-4a8e-957d-310124401c82")
+		)
+		(pin "9"
+			(uuid "d6e2e5ed-f61a-46a5-a520-1ed843d59af2")
+		)
+		(pin "8"
+			(uuid "0c2cbea6-cc18-4dd9-b0c2-a3e6344f84d3")
+		)
+		(pin "11"
+			(uuid "c6e26251-afd8-49cb-9dfe-f368f6d13b35")
+		)
+		(pin "10"
+			(uuid "4b3b4f5b-3a94-46b2-bd75-1322b1fbacbe")
+		)
+		(pin "6"
+			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91a")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U2")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 106.68 25.4 0)
 		(unit 1)
@@ -2371,6 +3591,110 @@
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR09")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx_IEEE:4584")
+		(at 242.57 109.22 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "433cc861-a38f-417c-8d4b-892a8430a3f8")
+		(property "Reference" "U2"
+			(at 250.19 102.7998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4584"
+			(at 250.19 105.3398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2f36abfe-1224-40e5-91ab-fe010f54fded")
+		)
+		(pin "1"
+			(uuid "02c035fd-be0e-4666-a642-76bebeedee8c")
+		)
+		(pin "7"
+			(uuid "30921921-bb9a-42f6-8dca-1453add5cead")
+		)
+		(pin "2"
+			(uuid "8d563e27-493a-48ba-8858-8aa4e8af2a0b")
+		)
+		(pin "5"
+			(uuid "ec6e37cc-2854-4047-b847-e33adb374924")
+		)
+		(pin "13"
+			(uuid "d4773732-c449-4b0e-bc18-126fc4849555")
+		)
+		(pin "3"
+			(uuid "d78ba42e-2ffa-4e8c-b5c4-5c94b9ae0418")
+		)
+		(pin "12"
+			(uuid "c914a062-615e-45f6-b0f8-a1b6bb2a6852")
+		)
+		(pin "14"
+			(uuid "999e0674-21fe-4a8e-957d-310124401c82")
+		)
+		(pin "9"
+			(uuid "d6e2e5ed-f61a-46a5-a520-1ed843d59af2")
+		)
+		(pin "8"
+			(uuid "0c2cbea6-cc18-4dd9-b0c2-a3e6344f84d3")
+		)
+		(pin "11"
+			(uuid "c6e26251-afd8-49cb-9dfe-f368f6d13b35")
+		)
+		(pin "10"
+			(uuid "4b3b4f5b-3a94-46b2-bd75-1322b1fbacbe")
+		)
+		(pin "6"
+			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91a")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -2530,6 +3854,214 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx_IEEE:4584")
+		(at 264.16 82.55 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56aecb01-591e-4eb6-a5a7-415035123ea2")
+		(property "Reference" "U2"
+			(at 271.78 76.1298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4584"
+			(at 271.78 78.6698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2f36abfe-1224-40e5-91ab-fe010f54fded")
+		)
+		(pin "1"
+			(uuid "02c035fd-be0e-4666-a642-76bebeedee8c")
+		)
+		(pin "7"
+			(uuid "30921921-bb9a-42f6-8dca-1453add5cead")
+		)
+		(pin "2"
+			(uuid "8d563e27-493a-48ba-8858-8aa4e8af2a0b")
+		)
+		(pin "5"
+			(uuid "ec6e37cc-2854-4047-b847-e33adb374924")
+		)
+		(pin "13"
+			(uuid "d4773732-c449-4b0e-bc18-126fc4849555")
+		)
+		(pin "3"
+			(uuid "d78ba42e-2ffa-4e8c-b5c4-5c94b9ae0418")
+		)
+		(pin "12"
+			(uuid "c914a062-615e-45f6-b0f8-a1b6bb2a6852")
+		)
+		(pin "14"
+			(uuid "999e0674-21fe-4a8e-957d-310124401c82")
+		)
+		(pin "9"
+			(uuid "d6e2e5ed-f61a-46a5-a520-1ed843d59af2")
+		)
+		(pin "8"
+			(uuid "0c2cbea6-cc18-4dd9-b0c2-a3e6344f84d3")
+		)
+		(pin "11"
+			(uuid "c6e26251-afd8-49cb-9dfe-f368f6d13b35")
+		)
+		(pin "10"
+			(uuid "4b3b4f5b-3a94-46b2-bd75-1322b1fbacbe")
+		)
+		(pin "6"
+			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91a")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4049")
+		(at 176.53 71.12 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b98adc-a058-465c-abf8-0d59da554b33")
+		(property "Reference" "U1"
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4049"
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffer Inverter"
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "33148901-8a23-48a2-b80f-770c26a36770")
+		)
+		(pin "1"
+			(uuid "514af9fd-2a90-4e09-b853-7e8baa987d28")
+		)
+		(pin "9"
+			(uuid "4907c44d-26b4-4e49-9126-4cc536aa014e")
+		)
+		(pin "12"
+			(uuid "5ff5dc4d-a928-4487-98e2-17e831bf3937")
+		)
+		(pin "3"
+			(uuid "099feae8-b2cb-47f4-980d-469e7bbe4daa")
+		)
+		(pin "2"
+			(uuid "ec11ffdc-9b89-4ca4-8c54-27b92458b38b")
+		)
+		(pin "5"
+			(uuid "48db2867-a64d-46b9-8e16-9c361f9cc1f7")
+		)
+		(pin "14"
+			(uuid "ef352c15-7dcf-4889-8c66-327caffcb7ae")
+		)
+		(pin "7"
+			(uuid "b19108d9-061b-480c-8cce-e358ab93354e")
+		)
+		(pin "10"
+			(uuid "d593c019-5e14-4b78-ba2b-875b6a7e4fb9")
+		)
+		(pin "11"
+			(uuid "8187f561-ea72-4d02-b11b-3ef80d34a76f")
+		)
+		(pin "15"
+			(uuid "6d7a150f-b5ad-40ba-b32b-b27ace8556e8")
+		)
+		(pin "4"
+			(uuid "1eab4cb5-e924-4a42-97f8-c52c755aef5f")
+		)
+		(pin "8"
+			(uuid "045d625b-ab11-4d3c-937b-0ea5020af5d2")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 106.68 45.72 180)
 		(unit 1)
@@ -2595,6 +4127,110 @@
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "R2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4049")
+		(at 149.86 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622e6b96-da7a-48d2-bf1e-ad1ba49eaddb")
+		(property "Reference" "U1"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4049"
+			(at 149.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffer Inverter"
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "33148901-8a23-48a2-b80f-770c26a36770")
+		)
+		(pin "1"
+			(uuid "514af9fd-2a90-4e09-b853-7e8baa987d28")
+		)
+		(pin "9"
+			(uuid "4907c44d-26b4-4e49-9126-4cc536aa014e")
+		)
+		(pin "12"
+			(uuid "5ff5dc4d-a928-4487-98e2-17e831bf3937")
+		)
+		(pin "3"
+			(uuid "099feae8-b2cb-47f4-980d-469e7bbe4daa")
+		)
+		(pin "2"
+			(uuid "ec11ffdc-9b89-4ca4-8c54-27b92458b38b")
+		)
+		(pin "5"
+			(uuid "48db2867-a64d-46b9-8e16-9c361f9cc1f7")
+		)
+		(pin "14"
+			(uuid "ef352c15-7dcf-4889-8c66-327caffcb7ae")
+		)
+		(pin "7"
+			(uuid "b19108d9-061b-480c-8cce-e358ab93354e")
+		)
+		(pin "10"
+			(uuid "d593c019-5e14-4b78-ba2b-875b6a7e4fb9")
+		)
+		(pin "11"
+			(uuid "8187f561-ea72-4d02-b11b-3ef80d34a76f")
+		)
+		(pin "15"
+			(uuid "6d7a150f-b5ad-40ba-b32b-b27ace8556e8")
+		)
+		(pin "4"
+			(uuid "1eab4cb5-e924-4a42-97f8-c52c755aef5f")
+		)
+		(pin "8"
+			(uuid "045d625b-ab11-4d3c-937b-0ea5020af5d2")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -2800,6 +4436,214 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx:4049")
+		(at 172.72 115.57 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92816940-ed76-444d-bb06-c35a723cf1d7")
+		(property "Reference" "U1"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4049"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffer Inverter"
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "33148901-8a23-48a2-b80f-770c26a36770")
+		)
+		(pin "1"
+			(uuid "514af9fd-2a90-4e09-b853-7e8baa987d28")
+		)
+		(pin "9"
+			(uuid "4907c44d-26b4-4e49-9126-4cc536aa014e")
+		)
+		(pin "12"
+			(uuid "5ff5dc4d-a928-4487-98e2-17e831bf3937")
+		)
+		(pin "3"
+			(uuid "099feae8-b2cb-47f4-980d-469e7bbe4daa")
+		)
+		(pin "2"
+			(uuid "ec11ffdc-9b89-4ca4-8c54-27b92458b38b")
+		)
+		(pin "5"
+			(uuid "48db2867-a64d-46b9-8e16-9c361f9cc1f7")
+		)
+		(pin "14"
+			(uuid "ef352c15-7dcf-4889-8c66-327caffcb7ae")
+		)
+		(pin "7"
+			(uuid "b19108d9-061b-480c-8cce-e358ab93354e")
+		)
+		(pin "10"
+			(uuid "d593c019-5e14-4b78-ba2b-875b6a7e4fb9")
+		)
+		(pin "11"
+			(uuid "8187f561-ea72-4d02-b11b-3ef80d34a76f")
+		)
+		(pin "15"
+			(uuid "6d7a150f-b5ad-40ba-b32b-b27ace8556e8")
+		)
+		(pin "4"
+			(uuid "1eab4cb5-e924-4a42-97f8-c52c755aef5f")
+		)
+		(pin "8"
+			(uuid "045d625b-ab11-4d3c-937b-0ea5020af5d2")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4049")
+		(at 176.53 93.98 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a031d03e-eb06-4066-b12b-d30799324472")
+		(property "Reference" "U1"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4049"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffer Inverter"
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "33148901-8a23-48a2-b80f-770c26a36770")
+		)
+		(pin "1"
+			(uuid "514af9fd-2a90-4e09-b853-7e8baa987d28")
+		)
+		(pin "9"
+			(uuid "4907c44d-26b4-4e49-9126-4cc536aa014e")
+		)
+		(pin "12"
+			(uuid "5ff5dc4d-a928-4487-98e2-17e831bf3937")
+		)
+		(pin "3"
+			(uuid "099feae8-b2cb-47f4-980d-469e7bbe4daa")
+		)
+		(pin "2"
+			(uuid "ec11ffdc-9b89-4ca4-8c54-27b92458b38b")
+		)
+		(pin "5"
+			(uuid "48db2867-a64d-46b9-8e16-9c361f9cc1f7")
+		)
+		(pin "14"
+			(uuid "ef352c15-7dcf-4889-8c66-327caffcb7ae")
+		)
+		(pin "7"
+			(uuid "b19108d9-061b-480c-8cce-e358ab93354e")
+		)
+		(pin "10"
+			(uuid "d593c019-5e14-4b78-ba2b-875b6a7e4fb9")
+		)
+		(pin "11"
+			(uuid "8187f561-ea72-4d02-b11b-3ef80d34a76f")
+		)
+		(pin "15"
+			(uuid "6d7a150f-b5ad-40ba-b32b-b27ace8556e8")
+		)
+		(pin "4"
+			(uuid "1eab4cb5-e924-4a42-97f8-c52c755aef5f")
+		)
+		(pin "8"
+			(uuid "045d625b-ab11-4d3c-937b-0ea5020af5d2")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 38.1 87.63 0)
 		(mirror y)
@@ -2939,6 +4783,600 @@
 			(project "BMW_E30_Early_Cluster_Tachometer"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM2931-5.0_TO220")
+		(at 113.03 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acfab765-0cbe-45fa-a091-5ea853728c73")
+		(property "Reference" "U3"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2930-5.0_TO220"
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 113.03 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2930.pdf?ts=1756742052928&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM2930"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 1 A 60V Linear Low Dropout Regulator, Fixed Output 5V, TO-220"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3bf699d-f245-44a4-9e98-ed469af4a567")
+		)
+		(pin "2"
+			(uuid "a5f4be02-e4d7-41b6-8fe3-95861e018978")
+		)
+		(pin "3"
+			(uuid "f2287481-dd45-4ec4-8500-03382576cfda")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx_IEEE:4584")
+		(at 243.84 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1bfc186-14bb-4440-8775-a8b586d03aa1")
+		(property "Reference" "U2"
+			(at 251.46 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4584"
+			(at 251.46 90.0998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2f36abfe-1224-40e5-91ab-fe010f54fded")
+		)
+		(pin "1"
+			(uuid "02c035fd-be0e-4666-a642-76bebeedee8c")
+		)
+		(pin "7"
+			(uuid "30921921-bb9a-42f6-8dca-1453add5cead")
+		)
+		(pin "2"
+			(uuid "8d563e27-493a-48ba-8858-8aa4e8af2a0b")
+		)
+		(pin "5"
+			(uuid "ec6e37cc-2854-4047-b847-e33adb374924")
+		)
+		(pin "13"
+			(uuid "d4773732-c449-4b0e-bc18-126fc4849555")
+		)
+		(pin "3"
+			(uuid "d78ba42e-2ffa-4e8c-b5c4-5c94b9ae0418")
+		)
+		(pin "12"
+			(uuid "c914a062-615e-45f6-b0f8-a1b6bb2a6852")
+		)
+		(pin "14"
+			(uuid "999e0674-21fe-4a8e-957d-310124401c82")
+		)
+		(pin "9"
+			(uuid "d6e2e5ed-f61a-46a5-a520-1ed843d59af2")
+		)
+		(pin "8"
+			(uuid "0c2cbea6-cc18-4dd9-b0c2-a3e6344f84d3")
+		)
+		(pin "11"
+			(uuid "c6e26251-afd8-49cb-9dfe-f368f6d13b35")
+		)
+		(pin "10"
+			(uuid "4b3b4f5b-3a94-46b2-bd75-1322b1fbacbe")
+		)
+		(pin "6"
+			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91a")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4049")
+		(at 154.94 80.01 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3be2aaf-19b9-48a5-b6e6-1f00d2145fcc")
+		(property "Reference" "U1"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4049"
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 154.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 154.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffer Inverter"
+			(at 154.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "33148901-8a23-48a2-b80f-770c26a36770")
+		)
+		(pin "1"
+			(uuid "514af9fd-2a90-4e09-b853-7e8baa987d28")
+		)
+		(pin "9"
+			(uuid "4907c44d-26b4-4e49-9126-4cc536aa014e")
+		)
+		(pin "12"
+			(uuid "5ff5dc4d-a928-4487-98e2-17e831bf3937")
+		)
+		(pin "3"
+			(uuid "099feae8-b2cb-47f4-980d-469e7bbe4daa")
+		)
+		(pin "2"
+			(uuid "ec11ffdc-9b89-4ca4-8c54-27b92458b38b")
+		)
+		(pin "5"
+			(uuid "48db2867-a64d-46b9-8e16-9c361f9cc1f7")
+		)
+		(pin "14"
+			(uuid "ef352c15-7dcf-4889-8c66-327caffcb7ae")
+		)
+		(pin "7"
+			(uuid "b19108d9-061b-480c-8cce-e358ab93354e")
+		)
+		(pin "10"
+			(uuid "d593c019-5e14-4b78-ba2b-875b6a7e4fb9")
+		)
+		(pin "11"
+			(uuid "8187f561-ea72-4d02-b11b-3ef80d34a76f")
+		)
+		(pin "15"
+			(uuid "6d7a150f-b5ad-40ba-b32b-b27ace8556e8")
+		)
+		(pin "4"
+			(uuid "1eab4cb5-e924-4a42-97f8-c52c755aef5f")
+		)
+		(pin "8"
+			(uuid "045d625b-ab11-4d3c-937b-0ea5020af5d2")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx_IEEE:4584")
+		(at 269.24 105.41 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f4b988-1fcb-40ea-ac8d-d7d68fab4e04")
+		(property "Reference" "U2"
+			(at 276.86 98.9898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4584"
+			(at 276.86 101.5298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2f36abfe-1224-40e5-91ab-fe010f54fded")
+		)
+		(pin "1"
+			(uuid "02c035fd-be0e-4666-a642-76bebeedee8c")
+		)
+		(pin "7"
+			(uuid "30921921-bb9a-42f6-8dca-1453add5cead")
+		)
+		(pin "2"
+			(uuid "8d563e27-493a-48ba-8858-8aa4e8af2a0b")
+		)
+		(pin "5"
+			(uuid "ec6e37cc-2854-4047-b847-e33adb374924")
+		)
+		(pin "13"
+			(uuid "d4773732-c449-4b0e-bc18-126fc4849555")
+		)
+		(pin "3"
+			(uuid "d78ba42e-2ffa-4e8c-b5c4-5c94b9ae0418")
+		)
+		(pin "12"
+			(uuid "c914a062-615e-45f6-b0f8-a1b6bb2a6852")
+		)
+		(pin "14"
+			(uuid "999e0674-21fe-4a8e-957d-310124401c82")
+		)
+		(pin "9"
+			(uuid "d6e2e5ed-f61a-46a5-a520-1ed843d59af2")
+		)
+		(pin "8"
+			(uuid "0c2cbea6-cc18-4dd9-b0c2-a3e6344f84d3")
+		)
+		(pin "11"
+			(uuid "c6e26251-afd8-49cb-9dfe-f368f6d13b35")
+		)
+		(pin "10"
+			(uuid "4b3b4f5b-3a94-46b2-bd75-1322b1fbacbe")
+		)
+		(pin "6"
+			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91a")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4049")
+		(at 170.18 49.53 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f20690-60e8-4420-94fa-aad8b787d493")
+		(property "Reference" "U1"
+			(at 176.53 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4049"
+			(at 176.53 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffer Inverter"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "33148901-8a23-48a2-b80f-770c26a36770")
+		)
+		(pin "1"
+			(uuid "514af9fd-2a90-4e09-b853-7e8baa987d28")
+		)
+		(pin "9"
+			(uuid "4907c44d-26b4-4e49-9126-4cc536aa014e")
+		)
+		(pin "12"
+			(uuid "5ff5dc4d-a928-4487-98e2-17e831bf3937")
+		)
+		(pin "3"
+			(uuid "099feae8-b2cb-47f4-980d-469e7bbe4daa")
+		)
+		(pin "2"
+			(uuid "ec11ffdc-9b89-4ca4-8c54-27b92458b38b")
+		)
+		(pin "5"
+			(uuid "48db2867-a64d-46b9-8e16-9c361f9cc1f7")
+		)
+		(pin "14"
+			(uuid "ef352c15-7dcf-4889-8c66-327caffcb7ae")
+		)
+		(pin "7"
+			(uuid "b19108d9-061b-480c-8cce-e358ab93354e")
+		)
+		(pin "10"
+			(uuid "d593c019-5e14-4b78-ba2b-875b6a7e4fb9")
+		)
+		(pin "11"
+			(uuid "8187f561-ea72-4d02-b11b-3ef80d34a76f")
+		)
+		(pin "15"
+			(uuid "6d7a150f-b5ad-40ba-b32b-b27ace8556e8")
+		)
+		(pin "4"
+			(uuid "1eab4cb5-e924-4a42-97f8-c52c755aef5f")
+		)
+		(pin "8"
+			(uuid "045d625b-ab11-4d3c-937b-0ea5020af5d2")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4049")
+		(at 151.13 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d60f16-d5c9-45c2-bd54-73e5316426dc")
+		(property "Reference" "U1"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4049"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Buffer Inverter"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "33148901-8a23-48a2-b80f-770c26a36770")
+		)
+		(pin "1"
+			(uuid "514af9fd-2a90-4e09-b853-7e8baa987d28")
+		)
+		(pin "9"
+			(uuid "4907c44d-26b4-4e49-9126-4cc536aa014e")
+		)
+		(pin "12"
+			(uuid "5ff5dc4d-a928-4487-98e2-17e831bf3937")
+		)
+		(pin "3"
+			(uuid "099feae8-b2cb-47f4-980d-469e7bbe4daa")
+		)
+		(pin "2"
+			(uuid "ec11ffdc-9b89-4ca4-8c54-27b92458b38b")
+		)
+		(pin "5"
+			(uuid "48db2867-a64d-46b9-8e16-9c361f9cc1f7")
+		)
+		(pin "14"
+			(uuid "ef352c15-7dcf-4889-8c66-327caffcb7ae")
+		)
+		(pin "7"
+			(uuid "b19108d9-061b-480c-8cce-e358ab93354e")
+		)
+		(pin "10"
+			(uuid "d593c019-5e14-4b78-ba2b-875b6a7e4fb9")
+		)
+		(pin "11"
+			(uuid "8187f561-ea72-4d02-b11b-3ef80d34a76f")
+		)
+		(pin "15"
+			(uuid "6d7a150f-b5ad-40ba-b32b-b27ace8556e8")
+		)
+		(pin "4"
+			(uuid "1eab4cb5-e924-4a42-97f8-c52c755aef5f")
+		)
+		(pin "8"
+			(uuid "045d625b-ab11-4d3c-937b-0ea5020af5d2")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "U1")
 					(unit 1)
 				)
 			)
