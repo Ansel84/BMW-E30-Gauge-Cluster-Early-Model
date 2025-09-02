@@ -2508,6 +2508,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4005"
 			(pin_numbers
 				(hide yes)
@@ -3646,6 +3810,12 @@
 		(uuid "2207c30b-7594-4585-8935-a090d09dd78b")
 	)
 	(junction
+		(at 138.43 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "234c4543-3f51-4b49-bddc-f8ff6a405812")
+	)
+	(junction
 		(at 189.23 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3656,6 +3826,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34b646a7-806e-4da1-9c01-7cf6e1f611f8")
+	)
+	(junction
+		(at 184.15 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ddd9f5d-b7da-4178-ab5b-b0fbe4b8beeb")
 	)
 	(junction
 		(at 213.36 166.37)
@@ -3706,6 +3882,12 @@
 		(uuid "89615600-3777-4de5-86c5-6d32d5f9a091")
 	)
 	(junction
+		(at 158.75 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9afa9513-62d4-4c7c-bdd2-47013232cd71")
+	)
+	(junction
 		(at 41.91 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3722,6 +3904,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acd01c3d-e0c5-4a9d-8413-5ad09d90d301")
+	)
+	(junction
+		(at 132.08 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af455bf7-b4f9-48a4-b615-dae7d07e2424")
 	)
 	(junction
 		(at 214.63 100.33)
@@ -3858,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 245.11) (xy 142.24 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f7dffa-a187-47b7-a2f6-200d0cb0e08a")
+	)
+	(wire
+		(pts
 			(xy 240.03 102.87) (xy 234.95 102.87)
 		)
 		(stroke
@@ -3885,6 +4083,16 @@
 			(type default)
 		)
 		(uuid "1dc12141-fea4-4e52-9508-cb4f978f10e1")
+	)
+	(wire
+		(pts
+			(xy 176.53 271.78) (xy 176.53 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed6ec37-cbd6-4eb3-9578-3c99536f8d61")
 	)
 	(wire
 		(pts
@@ -3938,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 245.11) (xy 132.08 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdd35a0-229c-45e9-946f-22d03e709cf0")
+	)
+	(wire
+		(pts
 			(xy 214.63 72.39) (xy 214.63 76.2)
 		)
 		(stroke
@@ -3985,6 +4203,16 @@
 			(type default)
 		)
 		(uuid "379a9cb3-350a-474c-8e17-665e9aa8e369")
+	)
+	(wire
+		(pts
+			(xy 158.75 256.54) (xy 158.75 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389e46ce-fe4f-4ae1-92b4-847713be5e6f")
 	)
 	(wire
 		(pts
@@ -4099,6 +4327,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 256.54) (xy 138.43 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54134ae6-cd10-4738-b970-88fa58aa4e5f")
+	)
+	(wire
+		(pts
 			(xy 162.56 166.37) (xy 167.64 166.37)
 		)
 		(stroke
@@ -4190,6 +4428,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 259.08) (xy 184.15 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662bae84-fb3e-4b66-afbb-e5bc861b0b93")
+	)
+	(wire
+		(pts
 			(xy 232.41 36.83) (xy 232.41 43.18)
 		)
 		(stroke
@@ -4237,6 +4485,16 @@
 			(type default)
 		)
 		(uuid "69d1d997-a49c-4afa-a6af-590d54d46b64")
+	)
+	(wire
+		(pts
+			(xy 184.15 251.46) (xy 184.15 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd7b14e-a2f0-4275-af51-f7c62eebfa2f")
 	)
 	(wire
 		(pts
@@ -4471,6 +4729,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 260.35) (xy 176.53 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931122cf-d737-482b-b8df-3de8b9ae0647")
+	)
+	(wire
+		(pts
 			(xy 231.14 171.45) (xy 231.14 166.37)
 		)
 		(stroke
@@ -4478,6 +4746,16 @@
 			(type default)
 		)
 		(uuid "93629f93-9b8f-4f93-b7f4-c2c54b07f853")
+	)
+	(wire
+		(pts
+			(xy 138.43 256.54) (xy 138.43 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937a641a-ae7c-4c7b-a10e-5ecbfbdd0061")
 	)
 	(wire
 		(pts
@@ -4561,6 +4839,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 260.35) (xy 132.08 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f333083-52aa-4cc6-9e89-651186e73073")
+	)
+	(wire
+		(pts
 			(xy 213.36 166.37) (xy 204.47 166.37)
 		)
 		(stroke
@@ -4621,6 +4909,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 252.73) (xy 132.08 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea369f4-bdee-484b-b11e-1a5bb6404f1d")
+	)
+	(wire
+		(pts
 			(xy 46.99 77.47) (xy 46.99 90.17)
 		)
 		(stroke
@@ -4651,6 +4949,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 267.97) (xy 180.34 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b220c2c6-4400-430e-a770-37d83ec2f324")
+	)
+	(wire
+		(pts
 			(xy 515.62 97.79) (xy 515.62 102.87)
 		)
 		(stroke
@@ -4668,6 +4976,16 @@
 			(type default)
 		)
 		(uuid "b5c0fa70-ac50-4337-a8cd-666925c85907")
+	)
+	(wire
+		(pts
+			(xy 132.08 245.11) (xy 138.43 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b686844a-bc92-49b3-a5fe-8f3b034091f0")
 	)
 	(wire
 		(pts
@@ -4738,6 +5056,16 @@
 			(type default)
 		)
 		(uuid "c180ee16-d40c-432d-acd6-e5fff773db65")
+	)
+	(wire
+		(pts
+			(xy 158.75 248.92) (xy 158.75 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c195406e-806d-4543-babe-a5bbd0c67323")
 	)
 	(wire
 		(pts
@@ -4951,6 +5279,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 245.11) (xy 158.75 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1ffd2b-6822-4c2e-b284-93c0a8efd027")
+	)
+	(wire
+		(pts
 			(xy 240.03 102.87) (xy 255.27 102.87)
 		)
 		(stroke
@@ -4961,6 +5299,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 245.11) (xy 184.15 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9612f2-2611-48d5-a264-e7640a0f1a9d")
+	)
+	(wire
+		(pts
 			(xy 231.14 166.37) (xy 213.36 166.37)
 		)
 		(stroke
@@ -4968,6 +5316,16 @@
 			(type default)
 		)
 		(uuid "ef85955b-ec22-46a8-9952-27df4a076c57")
+	)
+	(wire
+		(pts
+			(xy 184.15 245.11) (xy 204.47 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f076169d-ea9e-4dc8-9434-1ed966a4f729")
 	)
 	(wire
 		(pts
@@ -5061,6 +5419,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_Network"
+		(shape input)
+		(at 113.03 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d79189e-7e74-47ea-b2a8-26a2751beffd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.3686 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5625,6 +6005,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 158.75 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "041df4df-b3ad-4f7b-8be5-97a176d96af0")
+		(property "Reference" "#PWR043"
+			(at 158.75 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 158.623 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 158.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31c33543-3b43-4104-83a9-5a32158f4d22")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 527.05 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6130,6 +6576,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 184.15 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1afe7e01-5302-4dad-bbac-38ae47354014")
+		(property "Reference" "R16"
+			(at 186.69 253.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 186.69 256.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 182.372 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91cd2acb-8742-41bf-b423-39dd59bf31a3")
+		)
+		(pin "1"
+			(uuid "46669e53-9a76-44b9-8dd7-cee93c6ead0e")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 132.08 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2a88eb-f546-4601-a769-fecd017522e5")
+		(property "Reference" "#PWR044"
+			(at 132.08 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 131.953 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 132.08 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce0bb66f-1676-4f09-8d06-73d30229c650")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 231.14 182.88 0)
 		(unit 1)
@@ -6418,7 +7000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 251.46 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6462,7 +7044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 251.46 228.6 0)
 			(effects
 				(font
@@ -7416,6 +7998,74 @@
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 245.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d9b7a1b-bf9e-4701-90e9-56917d6e798d")
+		(property "Reference" "R17"
+			(at 146.05 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 146.05 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 146.05 246.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92c6652d-7a8e-4117-94e1-55f141d95d3a")
+		)
+		(pin "1"
+			(uuid "8dd1a55e-94e9-4dfb-b9a0-68bedfcb7e3a")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8558,6 +9208,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 132.08 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "774dfd0e-2ef1-439b-bd42-6a5fa4118273")
+		(property "Reference" "RV2"
+			(at 129.54 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220k"
+			(at 129.54 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 132.08 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fd34f51-a9d0-4982-b81c-6e8cc89a5546")
+		)
+		(pin "1"
+			(uuid "eadc3a5f-6176-4a54-8999-42a9eb59e02e")
+		)
+		(pin "3"
+			(uuid "222a7022-c3f0-4db4-a666-73f97114ee75")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Galvanometer")
 		(at 269.24 228.6 0)
 		(unit 1)
@@ -9059,6 +9782,79 @@
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U1")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 176.53 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9700dcee-11b6-4b80-b0da-d57624ee1396")
+		(property "Reference" "RV1"
+			(at 173.99 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220k"
+			(at 173.99 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 176.53 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3b3dc02-533b-4318-844b-88fa61b4ae28")
+		)
+		(pin "1"
+			(uuid "1ff4ebca-0f3b-41df-8b97-00ae72288dd6")
+		)
+		(pin "3"
+			(uuid "5ba46666-1b2d-4977-83cc-0d331e091bb8")
+		)
+		(instances
+			(project ""
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "RV1")
+					(unit 1)
 				)
 			)
 		)
@@ -10068,6 +10864,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 158.75 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2fc8bcb-8d54-4542-8952-bcbbe65b0a37")
+		(property "Reference" "C5"
+			(at 162.56 251.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 162.56 253.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.7152 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 158.75 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
+			(at 164.084 256.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fea2d61f-9689-4884-ae19-d4fb64cf2754")
+		)
+		(pin "2"
+			(uuid "8f44c364-ec3c-4294-b52f-d38110347ee0")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 233.68 257.81 0)
 		(unit 1)
@@ -10370,6 +11244,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 176.53 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76a10bb-9414-433b-b187-08dfa77a9d66")
+		(property "Reference" "#PWR041"
+			(at 176.53 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 176.403 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 176.53 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eecb87aa-607b-4c9c-8967-69d0c07a947d")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 251.46 284.48 0)
 		(unit 1)
@@ -10500,6 +11440,72 @@
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 176.53 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4056e07-d926-4d63-afd5-cfcf469a8fba")
+		(property "Reference" "#PWR042"
+			(at 176.53 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 176.53 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a03c4ec-65c1-4f8b-a1e6-c44ba10a8050")
+		)
+		(instances
+			(project "BMW_E30_Early_Cluster_EG"
+				(path "/b216cb44-2546-4a52-a541-225697d17737"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
