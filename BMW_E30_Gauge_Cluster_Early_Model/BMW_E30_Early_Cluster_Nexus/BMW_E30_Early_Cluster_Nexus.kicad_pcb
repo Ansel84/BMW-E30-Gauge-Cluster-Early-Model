@@ -60443,8 +60443,8 @@
 		(uuid "40c2fa16-dd35-4ef5-8963-b10ebf82a5c6")
 	)
 	(gr_circle
-		(center 105.918 187.856)
-		(end 112.118 187.856)
+		(center 106.018 187.8)
+		(end 112.218 187.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -60597,8 +60597,8 @@
 		(uuid "790c39c4-66d1-4f75-af6e-54c4b06e70ea")
 	)
 	(gr_circle
-		(center 65.532 187.856)
-		(end 71.732 187.856)
+		(center 65.632 187.8)
+		(end 71.832 187.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -60628,8 +60628,8 @@
 		(uuid "7e91c6b5-ca9a-4568-be4b-126d98e2b505")
 	)
 	(gr_circle
-		(center 309.9 187.856)
-		(end 316.1 187.856)
+		(center 310 187.8)
+		(end 316.2 187.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -60649,8 +60649,8 @@
 		(uuid "860c9a7d-6eaa-489c-9151-830eea3d89db")
 	)
 	(gr_circle
-		(center 166.8 187.856)
-		(end 173 187.856)
+		(center 166.9 187.8)
+		(end 173.1 187.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -60713,8 +60713,8 @@
 		(uuid "8fed75f9-7bbd-4a3a-925b-1b47a75b1088")
 	)
 	(gr_circle
-		(center 85.852 187.856)
-		(end 92.052 187.856)
+		(center 85.952 187.8)
+		(end 92.152 187.8)
 		(stroke
 			(width 0.05)
 			(type solid)
