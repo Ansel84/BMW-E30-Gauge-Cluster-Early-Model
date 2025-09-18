@@ -6442,7 +6442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Wide"
 			(at 303.53 169.545 0)
 			(effects
 				(font
@@ -6500,7 +6500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "041df4df-b3ad-4f7b-8be5-97a176d96af0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 208.28 185.42 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6566,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1afe7e01-5302-4dad-bbac-38ae47354014")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 236.22 173.9899 0)
 			(effects
 				(font
@@ -6620,7 +6620,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6636,7 +6636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e2a88eb-f546-4601-a769-fecd017522e5")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 181.61 193.04 0)
 			(effects
 				(font
@@ -6686,7 +6686,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6786,7 +6786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket_LongPads"
 			(at 269.24 45.212 0)
 			(effects
 				(font
@@ -6917,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "250e11c1-4258-4a94-a4ce-8257b13beb4d")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 280.67 156.2099 0)
 			(effects
 				(font
@@ -6971,7 +6971,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7065,7 +7065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "329d343e-cde4-49af-8236-07152d924a44")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 227.33 67.3099 0)
 			(effects
 				(font
@@ -7119,7 +7119,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7135,7 +7135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b113ecf-ea28-490d-8600-213df17871f8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR042"
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR048")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7201,7 +7201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f295d91-e0a5-4fbf-9d9d-e399712fc0e2")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 292.1 123.19 0)
 			(effects
 				(font
@@ -7251,7 +7251,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7337,7 +7337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4578ee2d-7a24-4199-b16b-4804b805bd0a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR061"
 			(at 318.77 184.15 0)
 			(effects
 				(font
@@ -7387,7 +7387,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR050")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7403,7 +7403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4941cb33-6397-4efc-a423-d37746e1b84c")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR050"
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -7453,7 +7453,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR054")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d9b7a1b-bf9e-4701-90e9-56917d6e798d")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 195.58 158.75 90)
 			(effects
 				(font
@@ -7521,7 +7521,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7537,7 +7537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52defc58-834b-47a7-9684-d86e2a3f5a50")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 148.59 53.3399 0)
 			(effects
 				(font
@@ -7591,7 +7591,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7622,7 +7622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 129.54 213.36 0)
 			(effects
 				(font
@@ -7710,7 +7710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eec252e-3d19-45c7-89ee-0a4a63cd14da")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR059"
 			(at 300.99 215.9 0)
 			(effects
 				(font
@@ -7760,7 +7760,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR039")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7776,7 +7776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60127cdc-c9de-498d-9938-57a6f594a163")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 180.34 76.1298 0)
 			(effects
 				(font
@@ -7864,7 +7864,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "U1")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -7895,7 +7895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 129.54 182.88 0)
 			(effects
 				(font
@@ -7983,7 +7983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6375af87-726d-48e9-90f8-d50b13e605a8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR047"
 			(at 172.72 100.33 0)
 			(effects
 				(font
@@ -8033,7 +8033,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR033")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8049,7 +8049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b19731c-83ef-44d7-9398-2f63c71ff3b0")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR046"
 			(at 172.72 73.66 0)
 			(effects
 				(font
@@ -8099,7 +8099,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR032")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8131,7 +8131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -8183,7 +8183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774dfd0e-2ef1-439b-bd42-6a5fa4118273")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 179.07 175.2599 0)
 			(effects
 				(font
@@ -8201,7 +8201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal"
 			(at 181.61 176.53 0)
 			(effects
 				(font
@@ -8240,7 +8240,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -8326,7 +8326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ea58d34-dd06-4019-a6e1-3cbb8f91631d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR051"
 			(at 224.79 62.23 0)
 			(effects
 				(font
@@ -8376,7 +8376,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR053")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8495,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 114.3 175.26 0)
 			(effects
 				(font
@@ -8583,7 +8583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9329e7c4-bae3-475c-a5e9-dbf7a6d12d2b")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR043"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -8633,7 +8633,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR047")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8812,7 +8812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9700dcee-11b6-4b80-b0da-d57624ee1396")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 223.52 186.6899 0)
 			(effects
 				(font
@@ -8830,7 +8830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal"
 			(at 226.06 187.96 0)
 			(effects
 				(font
@@ -8869,7 +8869,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "RV1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -8900,7 +8900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 114.3 190.5 0)
 			(effects
 				(font
@@ -8988,7 +8988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6b806b5-2558-4cd7-b4a9-a3072e8b63b8")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR045"
 			(at 146.05 49.53 0)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9054,7 +9054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe9cac3-2938-4fe0-8580-c394fe43a3fa")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 122.7933 72.39 0)
 			(effects
 				(font
@@ -9072,7 +9072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 120.65 87.63 0)
 			(effects
 				(font
@@ -9144,7 +9144,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed060f6-7aae-40c6-a12e-e1dc1a881d59")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR060"
 			(at 318.77 139.7 0)
 			(effects
 				(font
@@ -9210,7 +9210,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR040")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9241,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 129.54 198.12 0)
 			(effects
 				(font
@@ -9329,7 +9329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f3d2a1-70e6-495d-8957-dba7574e2bdb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR044"
 			(at 140.97 231.14 0)
 			(effects
 				(font
@@ -9379,7 +9379,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR052")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9395,7 +9395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51010e1-4484-4714-b2c6-b8205f34990e")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR054"
 			(at 269.24 59.69 0)
 			(effects
 				(font
@@ -9445,7 +9445,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR057")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9627,7 +9627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c40e91fa-c45b-48db-8919-1223bfbdfdba")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR057"
 			(at 283.21 182.88 0)
 			(effects
 				(font
@@ -9677,7 +9677,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR038")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9693,7 +9693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76a10bb-9414-433b-b187-08dfa77a9d66")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR053"
 			(at 226.06 200.66 0)
 			(effects
 				(font
@@ -9743,7 +9743,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR041")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9759,7 +9759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca4f1c39-81f8-451a-af0c-8b8d2dc667d1")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 303.53 203.1999 0)
 			(effects
 				(font
@@ -9813,7 +9813,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9829,7 +9829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4056e07-d926-4d63-afd5-cfcf469a8fba")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 226.06 184.15 0)
 			(effects
 				(font
@@ -9879,7 +9879,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR042")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9895,7 +9895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5754d91-8151-4820-9265-0d9199651ff3")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR041"
 			(at 58.42 217.17 0)
 			(effects
 				(font
@@ -9945,7 +9945,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR046")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9979,7 +9979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 58.42 194.31 0)
 			(effects
 				(font
@@ -10067,7 +10067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7a9d84c-573a-4344-a796-bd8f7fc3c447")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR040"
 			(at 58.42 180.34 0)
 			(effects
 				(font
@@ -10117,7 +10117,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR045")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10148,7 +10148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 114.3 205.74 0)
 			(effects
 				(font
@@ -10400,7 +10400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7b02bcc-3438-40fa-b4c6-ece10cc663fa")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR056"
 			(at 278.13 152.4 0)
 			(effects
 				(font
@@ -10450,7 +10450,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "#PWR037")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
