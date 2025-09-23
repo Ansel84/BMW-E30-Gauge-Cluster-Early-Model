@@ -5337,7 +5337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02cd4f3d-d7f5-41ee-a3a3-858a7b8dba71")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 165.1 100.3299 0)
 			(effects
 				(font
@@ -5391,7 +5391,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5689,7 +5689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 207.9752 53.34 0)
 			(effects
 				(font
@@ -6292,7 +6292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e5ea82c-b3b5-403c-ab07-0a0a3e738be0")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 190.5 93.9799 0)
 			(effects
 				(font
@@ -6346,7 +6346,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a549e5-84ee-4a4f-8e54-0a370e6c9ba9")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 163.83 181.6099 0)
 			(effects
 				(font
@@ -6549,7 +6549,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6565,7 +6565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370f96e7-eb21-44a2-aac6-59d193633566")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 175.26 182.88 90)
 			(effects
 				(font
@@ -6617,7 +6617,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e6c8e74-340a-4142-a049-3241e15962e3")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 231.14 107.9499 0)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7217,7 +7217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4abd4358-f520-4afc-8d34-2152b5a97eef")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 172.72 114.3 90)
 			(effects
 				(font
@@ -7269,7 +7269,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7455,7 +7455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5acdf913-4eb6-4cea-8583-69d69e07790d")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 204.47 96.52 90)
 			(effects
 				(font
@@ -7507,7 +7507,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7593,7 +7593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec0ed3c-5c53-44e7-96c9-8f0cb0576c2a")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 190.5 129.5399 0)
 			(effects
 				(font
@@ -7647,7 +7647,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7663,7 +7663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f61fbf3-c702-4daa-b0d5-549d71af22ee")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 248.92 111.76 90)
 			(effects
 				(font
@@ -7715,7 +7715,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8432,7 +8432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 248.6152 53.34 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 195.2752 53.34 0)
 			(effects
 				(font
@@ -9957,7 +9957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f157fd-0033-4893-a29a-6d4aa74c55dc")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 190.5 196.8499 0)
 			(effects
 				(font
@@ -10011,7 +10011,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)

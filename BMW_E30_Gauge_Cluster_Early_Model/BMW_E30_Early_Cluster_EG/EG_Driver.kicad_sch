@@ -6566,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1afe7e01-5302-4dad-bbac-38ae47354014")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 236.22 173.9899 0)
 			(effects
 				(font
@@ -6620,7 +6620,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6917,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "250e11c1-4258-4a94-a4ce-8257b13beb4d")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 280.67 156.2099 0)
 			(effects
 				(font
@@ -6971,7 +6971,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7065,7 +7065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "329d343e-cde4-49af-8236-07152d924a44")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 227.33 67.3099 0)
 			(effects
 				(font
@@ -7119,7 +7119,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d9b7a1b-bf9e-4701-90e9-56917d6e798d")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 195.58 158.75 90)
 			(effects
 				(font
@@ -7521,7 +7521,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7537,7 +7537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52defc58-834b-47a7-9684-d86e2a3f5a50")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 148.59 53.3399 0)
 			(effects
 				(font
@@ -7591,7 +7591,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774dfd0e-2ef1-439b-bd42-6a5fa4118273")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 179.07 175.2599 0)
 			(effects
 				(font
@@ -8240,7 +8240,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "RV1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -8812,7 +8812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9700dcee-11b6-4b80-b0da-d57624ee1396")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 223.52 186.6899 0)
 			(effects
 				(font
@@ -8869,7 +8869,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -9759,7 +9759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca4f1c39-81f8-451a-af0c-8b8d2dc667d1")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 303.53 203.1999 0)
 			(effects
 				(font
@@ -9813,7 +9813,7 @@
 		(instances
 			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)

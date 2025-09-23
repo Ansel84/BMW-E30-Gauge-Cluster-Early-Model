@@ -91,11 +91,11 @@
 	(net 11 "Net-(Q2-B)")
 	(net 12 "6_cyl")
 	(net 13 "VCC_T15")
-	(net 14 "Net-(R11-Pad1)")
+	(net 14 "Net-(R12-Pad2)")
 	(net 15 "Net-(R10-Pad1)")
-	(net 16 "Net-(R13-Pad1)")
+	(net 16 "Net-(R12-Pad1)")
 	(net 17 "Net-(RN1-Bit_out)")
-	(net 18 "Net-(R17-Pad2)")
+	(net 18 "Net-(R16-Pad2)")
 	(net 19 "Net-(RN1-R2)")
 	(net 20 "Net-(RN1-R4)")
 	(net 21 "Net-(RN1-R6)")
@@ -297,7 +297,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(R11-Pad1)")
+			(net 15 "Net-(R10-Pad1)")
 			(pintype "passive")
 			(uuid "d3f71488-d60a-44d5-a58b-22fbe90d2c21")
 		)
@@ -555,7 +555,7 @@
 	(footprint "Package_DIP:DIP-8_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "122764c8-af10-41c5-a5e5-72c8ac61d19d")
-		(at 157.38 56.38)
+		(at 158.19 56.38)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U4"
@@ -771,7 +771,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net 15 "Net-(R10-Pad1)")
+			(net 14 "Net-(R12-Pad2)")
 			(pintype "open_collector")
 			(uuid "aec9829d-9deb-4a4e-a0c6-dc59b2f1aecf")
 		)
@@ -1155,7 +1155,7 @@
 		(at 71.48 78.29)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "78a73501-55bf-408d-9ee3-86b95521f5f3")
@@ -1306,7 +1306,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "Net-(R17-Pad2)")
+			(net 18 "Net-(R16-Pad2)")
 			(pintype "passive")
 			(uuid "218fb035-e864-4bea-83dc-d07b2ead7a15")
 		)
@@ -1326,10 +1326,10 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1b938d75-cd81-424c-ac07-45c45e150815")
-		(at 71.48 73.79)
+		(at 159.84 89)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "ac244c19-b3cd-4b3f-9f14-3ee9cf450e83")
@@ -1503,7 +1503,7 @@
 		(at 87.42 84.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "fc20e07b-57b6-408a-8b5b-c986937fe3ea")
@@ -1644,7 +1644,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(R11-Pad1)")
+			(net 15 "Net-(R10-Pad1)")
 			(pintype "passive")
 			(uuid "aa8d2a89-4d3f-4a45-9fbf-7d41ee40701a")
 		)
@@ -1677,7 +1677,7 @@
 		(at 192.315 85.495 180)
 		(descr "Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer horizontal ACP CA9-H2,5")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 3.02 -1 0)
 			(layer "F.SilkS")
 			(uuid "f13fe94a-d14c-4df4-afa5-04f8215bdf19")
@@ -1921,7 +1921,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "23492100-16cf-4a7a-89c3-cf4987837500")
-		(at 165.16 68.5 180)
+		(at 165.32 69 180)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=20.32mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 20.32mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R2"
@@ -2381,11 +2381,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2f844bce-1867-4d4e-b032-5519e3dd9fa5")
-		(at 102.42 64.5)
+		(at 146 66.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R3"
-			(at 5.08 0 0)
+		(property "Reference" "R5"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "7cc0df04-488d-49ce-a2d7-ccc423ca8bdb")
 			(effects
@@ -2396,7 +2396,7 @@
 			)
 		)
 		(property "Value" "16k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "d72cc26f-9c35-4184-af88-bc51a0cac4dd")
 			(effects
@@ -2407,7 +2407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "359cb423-af01-4611-bd5e-b8e6abe44b1d")
@@ -2419,7 +2419,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2863e9b-1c7a-4c55-9f2e-6f26c939eedf")
@@ -2436,16 +2436,6 @@
 		(sheetfile "BMW_E30_Early_Cluster_EG.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.04 0)
-			(end 1.81 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae92f472-9508-41f8-8601-98ce9e8b0052")
-		)
-		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
 			(stroke
@@ -2454,6 +2444,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "bb302879-d8c2-40c8-8c84-0256e4855eda")
+		)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ae92f472-9508-41f8-8601-98ce9e8b0052")
 		)
 		(fp_rect
 			(start 1.81 -1.37)
@@ -2478,16 +2478,6 @@
 			(uuid "ba95d84a-bde7-4ffe-b80a-d025c9f5499d")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.93 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cd111482-4f30-4bbe-9693-fa095692857d")
-		)
-		(fp_line
 			(start 10.16 0)
 			(end 8.23 0)
 			(stroke
@@ -2496,6 +2486,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "bd80902b-6f6b-44fc-a13c-1e424a14794e")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd111482-4f30-4bbe-9693-fa095692857d")
 		)
 		(fp_rect
 			(start 1.93 -1.25)
@@ -2509,7 +2509,7 @@
 			(uuid "84d43dff-edc5-4138-ad2b-4350ed558b89")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "c4b1081b-65ad-4fc4-af4f-a59865288ee3")
 			(effects
@@ -2520,7 +2520,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2530,7 +2530,7 @@
 			(uuid "7d22f1d8-fda6-4b05-909f-6bc645ef7ab1")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2558,7 +2558,7 @@
 		(at 103.42 101)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "bbc9224b-6d3e-4aff-9676-dc3e4a08864a")
@@ -2699,7 +2699,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(R11-Pad1)")
+			(net 15 "Net-(R10-Pad1)")
 			(pintype "passive")
 			(uuid "d98c660a-5dec-4eb0-92cf-be5db8aec68c")
 		)
@@ -2729,7 +2729,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3e278241-8292-41af-82c2-760f0f98e1d3")
-		(at 139.66 63.5 180)
+		(at 137.08 63.5 180)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
@@ -3017,7 +3017,7 @@
 		(at 97.42 123.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "edd2179b-8fb4-47e0-802a-fbc67f1a2dff")
@@ -3158,7 +3158,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(R13-Pad1)")
+			(net 16 "Net-(R12-Pad1)")
 			(pintype "passive")
 			(uuid "409fccda-48ff-40e1-afab-b0fbf0849c3b")
 		)
@@ -3168,7 +3168,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "Net-(R10-Pad1)")
+			(net 14 "Net-(R12-Pad2)")
 			(pintype "passive")
 			(uuid "2f75721c-96d4-4f6a-b6cd-ff0d4177056e")
 		)
@@ -3473,11 +3473,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "56dff49e-e814-41b3-985b-e950bebe62dc")
-		(at 70.92 97.5)
+		(at 155 55.92 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R10"
-			(at 5.08 0 0)
+		(property "Reference" "R8"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "6bd86587-6ac0-431f-b8da-0b9135b59ec3")
 			(effects
@@ -3488,7 +3488,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "96492454-e112-464e-bd92-775dbe0319a3")
 			(effects
@@ -3499,7 +3499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fe129db-fa52-4082-a813-92cdfcefe2a1")
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92d2f527-6ee2-4728-b0d8-311239880cf3")
@@ -3601,7 +3601,7 @@
 			(uuid "77293b01-0482-4a80-a416-63936c0e0947")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "178894aa-4b9c-4658-bf2e-b89346011c04")
 			(effects
@@ -3612,17 +3612,17 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "Net-(R10-Pad1)")
+			(net 14 "Net-(R12-Pad2)")
 			(pintype "passive")
 			(uuid "90406a86-d776-4ece-975a-e894afeb1b7a")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3647,11 +3647,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "60687ee9-e22f-416c-ac97-8f8bb70c92bf")
-		(at 98.92 78)
+		(at 143 55.92 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R5"
-			(at 5.08 0 0)
+		(property "Reference" "R4"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "6d8973ab-b99e-4e3e-addb-efcc4dd8ddf2")
 			(effects
@@ -3662,7 +3662,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "517e395e-5e5d-40a0-84cb-e8fef92ab0ff")
 			(effects
@@ -3673,7 +3673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5bbbb0a-9c57-49f5-b8b2-7f8b841fcac6")
@@ -3685,7 +3685,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e4d6e49e-aee5-4d9e-9751-6f2b125026d4")
@@ -3775,7 +3775,7 @@
 			(uuid "5d749648-b3fe-4966-b014-102263f4fdcf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "41f62fc1-5498-4328-9514-936937d042ad")
 			(effects
@@ -3786,7 +3786,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3796,7 +3796,7 @@
 			(uuid "8652306e-3236-4b0b-a315-686585e33bda")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3824,7 +3824,7 @@
 		(at 194.5 96.5 180)
 		(descr "Potentiometer, horizontal, ACP CA9-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
 		(tags "Potentiometer horizontal ACP CA9-H2,5")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 3 -1 0)
 			(layer "F.SilkS")
 			(uuid "1df06e29-7190-4de0-a6c6-de7fddd9f150")
@@ -4036,7 +4036,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "Net-(R17-Pad2)")
+			(net 18 "Net-(R16-Pad2)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "06e5fbb7-0d75-4024-baf5-866a537bdb90")
@@ -4068,11 +4068,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6fdf4f02-906f-4acc-9935-b1c8886ccfd0")
-		(at 95.92 94)
+		(at 152 66.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R8"
-			(at 5.08 0 0)
+		(property "Reference" "R7"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "5ed51c37-2e42-4489-86c9-9d1edced10dc")
 			(effects
@@ -4083,7 +4083,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "01d768db-f666-4a6f-ae97-434f01d9d197")
 			(effects
@@ -4094,7 +4094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a424e99-7d64-4aeb-9e53-88dda75f8299")
@@ -4106,7 +4106,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1074dae8-f717-4f4d-83c9-9a2609df3e8c")
@@ -4123,16 +4123,6 @@
 		(sheetfile "BMW_E30_Early_Cluster_EG.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.04 0)
-			(end 1.81 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "af823c0b-12ff-493b-ace4-f44463263098")
-		)
-		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
 			(stroke
@@ -4141,6 +4131,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "08bb8c65-134a-49a2-bcb1-5c694075fe85")
+		)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "af823c0b-12ff-493b-ace4-f44463263098")
 		)
 		(fp_rect
 			(start 1.81 -1.37)
@@ -4165,16 +4165,6 @@
 			(uuid "c324ad4f-6d7d-47e2-995f-690870912f2b")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.93 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "325c4461-6162-47fb-92a9-55162f14d44f")
-		)
-		(fp_line
 			(start 10.16 0)
 			(end 8.23 0)
 			(stroke
@@ -4183,6 +4173,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "5f521e08-ab31-452d-bb68-56c1853076aa")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "325c4461-6162-47fb-92a9-55162f14d44f")
 		)
 		(fp_rect
 			(start 1.93 -1.25)
@@ -4196,7 +4196,7 @@
 			(uuid "80dbc261-5e18-4d1d-87d1-233a8ca28add")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "68828be3-1f32-4f8b-99fb-fca8cb69c9ed")
 			(effects
@@ -4207,7 +4207,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4217,7 +4217,7 @@
 			(uuid "8c663538-11e7-4bad-9c7c-c992d3ad4c28")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4245,7 +4245,7 @@
 		(at 71.48 65.29)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "dd3b6669-d92b-427f-a9e2-cf7d01c55b74")
@@ -4416,11 +4416,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8f6843fb-7754-4fe1-8476-c3a2bc27619f")
-		(at 91.42 70)
+		(at 140 66.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R4"
-			(at 5.08 0 0)
+		(property "Reference" "R3"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "642ee868-fce5-444a-b65d-b148888d50a0")
 			(effects
@@ -4431,7 +4431,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "09ae6692-2606-4dfb-843c-84e0d28dd677")
 			(effects
@@ -4442,7 +4442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96b08b48-6f11-4f84-9f3d-48c1ff380f6c")
@@ -4454,7 +4454,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e37274c-f8f4-4e7a-9d7b-d7a4bce1102b")
@@ -4471,16 +4471,6 @@
 		(sheetfile "BMW_E30_Early_Cluster_EG.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.04 0)
-			(end 1.81 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f90830d1-aca8-4851-891a-67c8b44716a0")
-		)
-		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
 			(stroke
@@ -4489,6 +4479,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ccfc6901-b8d9-458f-a451-d0bcdf60fa24")
+		)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f90830d1-aca8-4851-891a-67c8b44716a0")
 		)
 		(fp_rect
 			(start 1.81 -1.37)
@@ -4513,16 +4513,6 @@
 			(uuid "fc097179-28f6-4a37-a7de-21ac3ef034fc")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.93 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "01dbc8be-caf6-4143-b8fb-1ee591bcac76")
-		)
-		(fp_line
 			(start 10.16 0)
 			(end 8.23 0)
 			(stroke
@@ -4531,6 +4521,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "5a0fde37-cfb6-4a93-b1ed-f68893bf4946")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01dbc8be-caf6-4143-b8fb-1ee591bcac76")
 		)
 		(fp_rect
 			(start 1.93 -1.25)
@@ -4544,7 +4544,7 @@
 			(uuid "493e8e1e-31ee-442a-9f55-ddbc24134b75")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "dd07c480-a3cc-4ec7-b0ae-fbd2845f6ec8")
 			(effects
@@ -4555,7 +4555,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4565,7 +4565,7 @@
 			(uuid "a2aefc22-597b-4597-84d0-e6387bb9b54f")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5301,11 +5301,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9d7309ec-41c2-42a1-8964-9cb9577da425")
-		(at 71.48 82.29)
+		(at 169 66.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R18"
-			(at 5.08 0 0)
+		(property "Reference" "R14"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "f8febd37-c76c-40d1-a128-3f30db4bf202")
 			(effects
@@ -5316,7 +5316,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "ea672780-44eb-4111-8800-05924557d15f")
 			(effects
@@ -5327,7 +5327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1282581d-a914-47d9-9257-3ddf38948013")
@@ -5339,7 +5339,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5d88bc0a-6b27-4914-9cfb-b9e8f55d662e")
@@ -5356,16 +5356,6 @@
 		(sheetfile "EG_Driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.04 0)
-			(end 1.81 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "85ed3ca4-6410-4d9a-9cb0-bf814894086b")
-		)
-		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
 			(stroke
@@ -5374,6 +5364,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b66c4178-4f28-4fcf-8bd9-3ff20f965860")
+		)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85ed3ca4-6410-4d9a-9cb0-bf814894086b")
 		)
 		(fp_rect
 			(start 1.81 -1.37)
@@ -5398,16 +5398,6 @@
 			(uuid "c5bd90f4-ca70-42c7-9732-7dea195581a3")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.93 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "db896ec7-8cb0-44c5-81dc-c4666ddf7613")
-		)
-		(fp_line
 			(start 10.16 0)
 			(end 8.23 0)
 			(stroke
@@ -5416,6 +5406,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "b7419019-b331-422f-814a-4c83388c891f")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db896ec7-8cb0-44c5-81dc-c4666ddf7613")
 		)
 		(fp_rect
 			(start 1.93 -1.25)
@@ -5429,7 +5429,7 @@
 			(uuid "7a30051b-0253-47ae-bab0-cd9e7962690f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "36f1f183-0f2b-487b-a87c-413d7d8694d3")
 			(effects
@@ -5440,7 +5440,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5450,7 +5450,7 @@
 			(uuid "0ab1e01f-db12-413d-82e1-4bbea8cac125")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5478,7 +5478,7 @@
 		(at 71.68 68.79)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "891d1e46-bbc8-4c14-9abb-14fe2e936b4c")
@@ -6354,11 +6354,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bb13c4d6-ad55-4ce5-aca8-d10ba72b2f5c")
-		(at 100.84 88)
+		(at 149 66.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R7"
-			(at 5.08 0 0)
+		(property "Reference" "R6"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "ec9205fb-f6b1-4697-be9f-fa1baed5d0ea")
 			(effects
@@ -6369,7 +6369,7 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "8f29df90-872f-49d2-9130-4bd2aa8bf1bd")
 			(effects
@@ -6380,7 +6380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d09a0628-84ac-4a2f-9417-649e81b3a2af")
@@ -6392,7 +6392,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a6b340e-5d0c-45bf-84bc-d92a2a601008")
@@ -6409,16 +6409,6 @@
 		(sheetfile "BMW_E30_Early_Cluster_EG.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.04 0)
-			(end 1.81 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6e2aa6ab-e49c-487b-a257-eeb800c3ef3c")
-		)
-		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
 			(stroke
@@ -6427,6 +6417,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "276c9693-62d9-492d-bee7-7458fd6ac4ab")
+		)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e2aa6ab-e49c-487b-a257-eeb800c3ef3c")
 		)
 		(fp_rect
 			(start 1.81 -1.37)
@@ -6451,16 +6451,6 @@
 			(uuid "2ae902ff-3c6a-4dad-81ae-1b6e77448cd0")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.93 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "acf5dfc8-cf8e-4ba5-bd98-bc252a931aa1")
-		)
-		(fp_line
 			(start 10.16 0)
 			(end 8.23 0)
 			(stroke
@@ -6469,6 +6459,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "3ede5b99-298a-4fbf-93db-d3ee95547689")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "acf5dfc8-cf8e-4ba5-bd98-bc252a931aa1")
 		)
 		(fp_rect
 			(start 1.93 -1.25)
@@ -6482,7 +6482,7 @@
 			(uuid "513ae049-51c0-4d54-be88-c80a18c121d6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "3c3d2758-859b-4ac7-a6fa-3869de875539")
 			(effects
@@ -6493,7 +6493,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -6503,7 +6503,7 @@
 			(uuid "0ae59d7a-ea2f-4b60-bb4b-d96bd86dc9d8")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7284,7 +7284,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92L_Wide"
 		(layer "F.Cu")
 		(uuid "c0ff81f8-facb-4219-999c-ed014707f005")
-		(at 126.58 58.5 180)
+		(at 126.5 58 180)
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Molded Wide transistor")
 		(property "Reference" "Q1"
@@ -7570,11 +7570,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c3e7b4a9-ec3f-48c3-9077-99a90c8823aa")
-		(at 97.92 110.5)
+		(at 173.5 66.08 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R12"
-			(at 5.08 0 0)
+		(property "Reference" "R13"
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "d1910362-e0e1-4ed8-a1fa-8f09a4f79268")
 			(effects
@@ -7585,7 +7585,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 5.08 2.37 0)
+			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "60ff005e-7aec-44a4-b980-284de16edec3")
 			(effects
@@ -7596,7 +7596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f375b772-4b87-42f0-82c9-baa7f26caa83")
@@ -7608,7 +7608,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d37b18a8-e8de-4573-8f88-e8d7d2d0e2c9")
@@ -7625,16 +7625,6 @@
 		(sheetfile "BMW_E30_Early_Cluster_EG.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.04 0)
-			(end 1.81 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "69d7065d-9484-4daf-af29-866dc7f57604")
-		)
-		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
 			(stroke
@@ -7643,6 +7633,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b5f796b9-8ec2-4381-9745-38f7d45e84f7")
+		)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "69d7065d-9484-4daf-af29-866dc7f57604")
 		)
 		(fp_rect
 			(start 1.81 -1.37)
@@ -7667,16 +7667,6 @@
 			(uuid "ed25063c-8771-4931-bac5-9b323af679ee")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.93 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c5cd8042-2ddf-4e61-8685-5dca98f910bf")
-		)
-		(fp_line
 			(start 10.16 0)
 			(end 8.23 0)
 			(stroke
@@ -7685,6 +7675,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "49a6fb33-7383-423d-9546-dcd971c0f5d1")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c5cd8042-2ddf-4e61-8685-5dca98f910bf")
 		)
 		(fp_rect
 			(start 1.93 -1.25)
@@ -7698,7 +7698,7 @@
 			(uuid "4fd05097-3568-4989-a426-bae07afa92ed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
+			(at 5.08 0 90)
 			(layer "F.Fab")
 			(uuid "a8d41147-a848-4044-b685-0446a8545e9a")
 			(effects
@@ -7709,7 +7709,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7719,12 +7719,12 @@
 			(uuid "71dc75c0-6270-4fdc-a693-cc67a03099af")
 		)
 		(pad "2" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "Net-(R10-Pad1)")
+			(net 14 "Net-(R12-Pad2)")
 			(pintype "passive")
 			(uuid "8cf3be47-64ca-4409-8f59-f7b95c4785f8")
 		)
@@ -8599,7 +8599,7 @@
 				)
 			)
 		)
-		(path "/56aecb01-591e-4eb6-a5a7-415035123ea2")
+		(path "/c4f4b988-1fcb-40ea-ac8d-d7d68fab4e04")
 		(sheetname "/")
 		(sheetfile "BMW_E30_Early_Cluster_EG.kicad_sch")
 		(attr through_hole)
@@ -8866,7 +8866,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(R13-Pad1)")
+			(net 16 "Net-(R12-Pad1)")
 			(pintype "input")
 			(uuid "9d47d978-1f59-468b-af64-6c2db49f7447")
 		)
@@ -8886,7 +8886,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(R11-Pad1)")
+			(net 15 "Net-(R10-Pad1)")
 			(pintype "input")
 			(uuid "34661ad1-5be2-4bd8-a1a0-98802ed9778a")
 		)
@@ -8917,10 +8917,10 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fd80136a-87be-4674-93c8-762ac611de42")
-		(at 159.92 89)
+		(at 100.92 131)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "3a40c382-9877-4a56-9376-ed0947408edb")
