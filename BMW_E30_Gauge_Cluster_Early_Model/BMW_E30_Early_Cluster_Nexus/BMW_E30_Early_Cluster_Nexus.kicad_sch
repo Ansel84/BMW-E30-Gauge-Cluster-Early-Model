@@ -8912,6 +8912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d01355c8-a5eb-46dd-80f3-4e9d408c61ff")
 		)
@@ -8980,6 +8989,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 328.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7da92f7-e3d3-4b4d-8c2b-1a61cc73c5f1")
 		)
@@ -9040,6 +9058,15 @@
 			)
 		)
 		(property "Description" "Lamp"
+			(at 101.6 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." ""
 			(at 101.6 210.82 0)
 			(effects
 				(font
@@ -9174,6 +9201,15 @@
 			)
 		)
 		(property "Description" "Lamp"
+			(at 266.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." ""
 			(at 266.7 121.92 0)
 			(effects
 				(font
@@ -9646,6 +9682,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 341.63 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dea241d7-0248-4c4a-953a-d77aff2362a5")
 		)
@@ -9706,6 +9751,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." ""
 			(at 101.6 116.84 0)
 			(effects
 				(font
@@ -9958,6 +10012,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 133.35 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "74b39699-f5fa-4095-9413-1f56aec8715f")
 		)
@@ -10029,6 +10092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 293.37 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3a34bac-3b3b-458e-9864-d0772496dd12")
 		)
@@ -10081,7 +10153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/31018/cmfind.pdf"
 			(at 322.58 121.92 0)
 			(effects
 				(font
@@ -10091,6 +10163,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 322.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." "541-CMF65100R00FKEBCT-ND"
 			(at 322.58 121.92 0)
 			(effects
 				(font
@@ -10299,6 +10380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 312.42 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aeefb1ff-6f6a-491c-9dd2-35d07b3af0d0")
 		)
@@ -10359,6 +10449,15 @@
 			)
 		)
 		(property "Description" "Lamp"
+			(at 251.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." ""
 			(at 251.46 121.92 0)
 			(effects
 				(font
@@ -10485,7 +10584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/PCF.pdf"
 			(at 210.82 195.58 0)
 			(effects
 				(font
@@ -10495,6 +10594,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." "2019-PCF1C680K-ND"
 			(at 210.82 195.58 0)
 			(effects
 				(font
@@ -10703,6 +10811,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97ac548b-1323-4d64-81ec-ac862c7409e4")
 		)
@@ -10838,6 +10955,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 29.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e2c36624-a126-4317-b292-809f726ac560")
 		)
@@ -10953,6 +11079,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 36.83 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." ""
+			(at 36.83 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,6 +11229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 312.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c96e49e3-8f50-4b0d-be54-8ae92b236235")
 		)
@@ -11144,7 +11288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-CF_CFM.pdf"
 			(at 363.22 45.72 0)
 			(effects
 				(font
@@ -11153,8 +11297,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 5% (NOTE: original board had a 2% resistor although it is unlikely that a 5% resistor would cause an issue. Chose 5% for cost purposes)"
 			(at 363.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." "CF14JT16K0CT-ND"
+			(at 363.22 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,6 +11375,15 @@
 			)
 		)
 		(property "Description" "Lamp"
+			(at 297.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." ""
 			(at 297.18 121.92 0)
 			(effects
 				(font
@@ -11430,6 +11592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 356.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1407f8c8-24f8-4432-9fe1-403b452274bb")
 		)
@@ -11492,6 +11663,15 @@
 			)
 		)
 		(property "Description" "Part No. 827881-2"
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." "A129100-ND"
 			(at 171.45 40.64 0)
 			(effects
 				(font
@@ -11772,6 +11952,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 281.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dfd9de1-b403-4ada-9a7a-bd5d62abeae1")
 		)
@@ -11972,6 +12161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 278.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1386b93b-f68a-4df5-8076-260767b978c0")
 		)
@@ -12024,7 +12222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/PCF.pdf"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -12034,6 +12232,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." "2019-PCF1C680K-ND"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -12376,6 +12583,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part No." ""
+			(at 210.82 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ad214e1-2af7-47ea-8129-a68f71a409f5")
 		)
@@ -12440,7 +12656,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Part No. 827881-1"
+		(property "Description" "Part No. 827881-3"
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." "827881-3-ND"
 			(at 46.99 39.37 0)
 			(effects
 				(font
@@ -12582,7 +12807,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Part No. 827881-3"
+		(property "Description" "Part No. 827881-1"
+			(at 298.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." "A129099-ND"
 			(at 298.45 40.64 0)
 			(effects
 				(font
@@ -12723,6 +12957,15 @@
 			)
 		)
 		(property "Description" "Lamp"
+			(at 171.45 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part No." ""
 			(at 171.45 210.82 0)
 			(effects
 				(font
