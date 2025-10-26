@@ -78617,7 +78617,7 @@
 			)
 		)
 	)
-	(gr_text "Glow plug [Diesel]"
+	(gr_text "Glow Plug [Diesel]"
 		(at 66.5 196 0)
 		(layer "F.SilkS")
 		(uuid "51493e4e-759d-4634-8afe-a086112a2e83")
@@ -78629,7 +78629,7 @@
 			)
 		)
 	)
-	(gr_text "Trailer indicators"
+	(gr_text "Trailer Indicators"
 		(at 167.5 195.7 0)
 		(layer "F.SilkS")
 		(uuid "551a9816-e006-4701-a6ba-9ba79cc83282")
