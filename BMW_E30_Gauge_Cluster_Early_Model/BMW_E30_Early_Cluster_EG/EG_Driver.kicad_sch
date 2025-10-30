@@ -6995,7 +6995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1u"
 			(at 304.8 149.8599 0)
 			(effects
 				(font
@@ -7004,7 +7004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 			(at 301.9552 152.4 0)
 			(effects
 				(font
@@ -8751,7 +8751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3"
 			(at 211.7852 92.71 0)
 			(effects
 				(font
@@ -9566,7 +9566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm"
 			(at 209.2452 176.53 0)
 			(effects
 				(font
@@ -10339,7 +10339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W3.6mm_P10.00mm_MKT"
 			(at 284.1752 176.53 0)
 			(effects
 				(font
