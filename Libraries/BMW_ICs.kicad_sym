@@ -75,8 +75,8 @@
 		)
 		(symbol "PIC1655A_0_1"
 			(rectangle
-				(start -16.51 -21.59)
-				(end 16.51 21.59)
+				(start -16.51 21.59)
+				(end 16.51 -21.59)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -133,7 +133,7 @@
 						)
 					)
 				)
-				(number "26"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
