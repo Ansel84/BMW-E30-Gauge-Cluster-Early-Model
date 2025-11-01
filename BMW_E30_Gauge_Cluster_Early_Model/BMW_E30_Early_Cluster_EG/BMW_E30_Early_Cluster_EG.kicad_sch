@@ -5901,7 +5901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:ConnectorIV_EG_Socket"
 			(at 38.1 40.64 0)
 			(effects
 				(font
@@ -8511,7 +8511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:EG_Tach_Socket"
 			(at 38.1 87.63 0)
 			(effects
 				(font

@@ -11837,7 +11837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W3.6mm_P10.00mm_MKT"
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 284.1752 176.53 0)
 			(effects
 				(font
