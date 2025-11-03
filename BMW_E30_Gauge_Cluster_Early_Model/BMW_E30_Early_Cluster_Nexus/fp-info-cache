@@ -1,4 +1,4 @@
-37002343130313
+38764774992121
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -112,7 +112,14 @@ Early model cluster connector from nexus to tachometer and speedometer
 10
 5
 BMW_Cluster_Connectors
-Gauge_fuel_temp
+Gauge_Fuel
+connector for the fuel gauge and the temperature gauge
+
+0
+5
+3
+BMW_Cluster_Connectors
+Gauge_Temp
 connector for the fuel gauge and the temperature gauge
 
 0

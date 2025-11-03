@@ -9985,7 +9985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BMW_Cluster_Connectors:Gauge_fuel_temp"
+		(property "Footprint" "BMW_Cluster_Connectors:Gauge_Fuel"
 			(at 135.89 210.82 0)
 			(effects
 				(font
@@ -12556,7 +12556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BMW_Cluster_Connectors:Gauge_fuel_temp"
+		(property "Footprint" "BMW_Cluster_Connectors:Gauge_Temp"
 			(at 213.36 210.82 0)
 			(effects
 				(font
