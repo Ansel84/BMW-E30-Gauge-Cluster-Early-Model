@@ -1,4 +1,4 @@
-5283157067186
+37001905770313
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -14,12 +14,54 @@ audio belton reverb
 7
 7
 BMW_Cluster_Connectors
+2721MF
+
+
+0
+2
+2
+BMW_Cluster_Connectors
+2821MF
+
+
+0
+2
+2
+BMW_Cluster_Connectors
+BMW_1372218
+
+
+0
+8
+4
+BMW_Cluster_Connectors
+Coding_Plug
+
+
+0
+20
+20
+BMW_Cluster_Connectors
+ConnectorIV_EG_Socket
+Early model cluster connector from nexus to tachometer and speedometer
+
+0
+22
+11
+BMW_Cluster_Connectors
 ConnectorIV_Early
 Early model cluster connector from nexus to tachometer and speedometer
 
 0
 16
 16
+BMW_Cluster_Connectors
+ConnectorIV_Late
+Early model cluster connector from nexus to tachometer and speedometer
+
+0
+5
+5
 BMW_Cluster_Connectors
 ConnectorV_Early
 Connector V for early model cluster, connects nexus board to SI board. 
@@ -28,12 +70,96 @@ Connector V for early model cluster, connects nexus board to SI board.
 15
 15
 BMW_Cluster_Connectors
+ConnectorV_Late
+Connector V for early model cluster, connects nexus board to SI board. 
+
+0
+18
+18
+BMW_Cluster_Connectors
+Connector_EG
+
+
+0
+2
+2
+BMW_Cluster_Connectors
+Connector_Speedometer
+Connector V for early model cluster, connects nexus board to SI board. 
+
+0
+5
+5
+BMW_Cluster_Connectors
+Connector_Tach
+
+
+0
+2
+2
+BMW_Cluster_Connectors
+EG_Tach_Pins
+
+
+0
+10
+5
+BMW_Cluster_Connectors
+EG_Tach_Socket
+Early model cluster connector from nexus to tachometer and speedometer
+
+0
+10
+5
+BMW_Cluster_Connectors
 Gauge_fuel_temp
 connector for the fuel gauge and the temperature gauge
 
 0
 5
 3
+BMW_Cluster_Connectors
+Odometer_Stepper
+
+
+0
+3
+3
+BMW_Cluster_Connectors
+Speedometer_Galvanometer
+
+
+0
+2
+2
+BMW_Cluster_Connectors
+TE_827881-1
+
+TE, AMP, 827881
+0
+26
+26
+BMW_Cluster_Connectors
+TE_827881-2
+
+TE, AMP, 827881
+0
+26
+26
+BMW_Cluster_Connectors
+TE_827881-3
+
+TE, AMP, 827881
+0
+26
+26
+BMW_Cluster_Connectors
+Tach_EG_Socket_Late
+Early model cluster connector from nexus to tachometer and speedometer
+
+0
+20
+10
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
