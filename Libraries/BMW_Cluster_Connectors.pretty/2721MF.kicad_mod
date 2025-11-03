@@ -3,22 +3,28 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "LA12"
+	(property "Reference" "LA"
 		(at 7.099836 0.003178 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "12abfc59-b9d9-440a-8957-699346c5ca96")
 		(effects
-			(font (size 1 1) (thickness 0.1))
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 		)
 	)
-	(property "Value" "Oil Pressure"
+	(property "Value" "Val**"
 		(at -7.175168 0.003178 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ff1990b5-87dd-4802-bfe1-e96a23f171b0")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Datasheet" "~"
@@ -28,7 +34,10 @@
 		(hide yes)
 		(uuid "f0b63fae-95fd-45f0-b971-8aeb156cff33")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Description" "Lamp"
@@ -38,35 +47,50 @@
 		(hide yes)
 		(uuid "f5d39d29-22f5-43b4-86f3-6c72bcc6283d")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(attr through_hole)
 	(fp_line
 		(start -4.026215 -1.5)
 		(end -5.806544 -1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "9bfa8e8f-95d7-4d4b-bfee-1a318221f56a")
 	)
 	(fp_line
 		(start -4.026215 1.5)
 		(end -5.806544 1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "658dd451-ab6c-4ba5-9876-b27010ff290d")
 	)
 	(fp_line
 		(start 4.026215 -1.5)
 		(end 5.806544 -1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "f4db92b1-364a-4275-99c7-4348fcaca156")
 	)
 	(fp_line
 		(start 4.026215 1.5)
 		(end 5.806544 1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "f25ef7c8-8c59-4869-8320-e0d1e7961897")
 	)
@@ -74,7 +98,10 @@
 		(start -5.806544 1.5)
 		(mid -5.997162 0)
 		(end -5.806544 -1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "ded0d744-2c18-4db4-8899-c5d93c29468e")
 	)
@@ -82,7 +109,10 @@
 		(start -4.026215 -1.5)
 		(mid 0 -4.296558)
 		(end 4.026215 -1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "714f8e92-9dc3-4705-931d-016841674073")
 	)
@@ -90,7 +120,10 @@
 		(start 4.026215 1.5)
 		(mid 0 4.296558)
 		(end -4.026215 1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "43ed31d2-7364-41ec-8e3f-f7351ba9a396")
 	)
@@ -98,14 +131,20 @@
 		(start 5.806544 -1.5)
 		(mid 5.997162 0)
 		(end 5.806544 1.5)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(layer "Edge.Cuts")
 		(uuid "e4efed39-178e-4ac4-a9ab-6be52db67f07")
 	)
 	(fp_circle
 		(center 0 0)
 		(end 6.2 0)
-		(stroke (width 0.05) (type default))
+		(stroke
+			(width 0.05)
+			(type default)
+		)
 		(fill no)
 		(layer "F.Fab")
 		(uuid "5cd9bf99-5ac7-47d4-b5c2-ccf13301050d")
@@ -116,7 +155,10 @@
 		(layer "F.Fab")
 		(uuid "dd649f52-afe5-4c79-9de8-e05cc4315d0b")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" smd custom
