@@ -26334,7 +26334,7 @@
 	)
 	(gr_text "E30"
 		(at 47 147 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "f700b298-7836-422f-b11f-53935b559620")
 		(effects
 			(font
