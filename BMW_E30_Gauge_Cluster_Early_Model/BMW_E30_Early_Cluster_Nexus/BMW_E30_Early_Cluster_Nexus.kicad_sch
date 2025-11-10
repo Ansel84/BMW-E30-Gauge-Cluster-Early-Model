@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "BMW E30 Instrument Cluster Nexus")
-		(rev "0")
+		(date "2025-11-10")
+		(rev "3")
 		(company "EGR: Reagan Ansel")
 		(comment 1 "Replacement part for BMW part number: 62111372255")
 	)
@@ -9714,7 +9715,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "44feac6d-115c-45b0-9978-02845816c4fe")
 		(property "Reference" "J4"
 			(at 102.235 93.98 0)
@@ -9724,8 +9724,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x16_Pin"
-			(at 102.235 96.52 0)
+		(property "Value" "EG_Tach_Spdometer"
+			(at 101.346 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,7 +10920,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x19_Socket"
+		(property "Value" "SI Board Interface"
 			(at 29.845 96.52 0)
 			(effects
 				(font
@@ -11634,7 +11634,7 @@
 				)
 			)
 		)
-		(property "Value" "C2 - White Connector"
+		(property "Value" "C2 - White Connector (TE_827881-2)"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -12628,7 +12628,7 @@
 				)
 			)
 		)
-		(property "Value" "C1 - Blue Connector"
+		(property "Value" "C1 - Blue Connector (TE_827881-3)"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -12779,7 +12779,7 @@
 				)
 			)
 		)
-		(property "Value" "C3 - Yellow Connector"
+		(property "Value" "C3 - Yellow Connector (TE_827881-1)"
 			(at 323.85 33.02 0)
 			(effects
 				(font
