@@ -15806,7 +15806,7 @@
 	)
 	(image
 		(at 159.240791 72.055593)
-		(layer "Edge.Cuts")
+		(layer "User.1")
 		(scale 0.157261)
 		(locked yes)
 		(data "iVBORw0KGgoAAAANSUhEUgAACgAAAAeACAIAAACNUZmXAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
