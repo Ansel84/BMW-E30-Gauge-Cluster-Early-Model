@@ -182,7 +182,7 @@
 		(at 240 221.404)
 		(descr "Connector V for early model cluster, connects nexus board to SI board. ")
 		(property "Reference" "J5"
-			(at -32.269602 -14.559911 0)
+			(at -20.3 8.596 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "dd8afcf9-8fe6-49df-8ee8-3cebc2643b3a")
@@ -466,7 +466,7 @@
 			(net 10 "GNDPWR")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "b0ee4016-5ba5-4bfd-ba77-1d6f8490310a")
+			(uuid "7f32fe85-d5db-4118-8edf-94b88a5ac4de")
 		)
 		(pad "2" smd roundrect
 			(at -3.5 -3.5 90)
@@ -486,7 +486,7 @@
 			(net 50 "Brake_wear_ind+")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "ae8fc119-d3a9-4323-8f19-b16c0edf0d75")
+			(uuid "a119956b-c9d1-416c-a099-8cabb6fdc5e8")
 		)
 		(pad "3" smd roundrect
 			(at -7 -3.5 90)
@@ -506,7 +506,7 @@
 			(net 57 "Temp_gauge")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "4310d64a-f73f-4789-84b5-7e0baeeddbf6")
+			(uuid "c24c5332-7ac9-4533-bdf2-659ea352ba93")
 		)
 		(pad "4" smd roundrect
 			(at -10.5 -3.5 90)
@@ -526,7 +526,7 @@
 			(net 16 "Brake_wear_sig+")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "0eecb018-95be-47a2-ac85-38fa47240340")
+			(uuid "b89d7e1f-faa9-425d-8cb1-b105b636718d")
 		)
 		(pad "5" smd roundrect
 			(at -14 -3.5 90)
@@ -546,7 +546,7 @@
 			(net 5 "SI_RST")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "744a58d7-0652-4ae0-b0e3-3435469473c1")
+			(uuid "c5a576f2-0054-4469-8154-9a00c52e29db")
 		)
 		(pad "6" smd roundrect
 			(at -17.5 -3.5 90)
@@ -566,7 +566,7 @@
 			(net 11 "Eng_temp_sensor")
 			(pinfunction "Pin_6")
 			(pintype "passive")
-			(uuid "f2c3c5d5-26fd-4226-9900-bccc7ecf9acd")
+			(uuid "a16fa1cf-484c-423b-9c07-7d62e5fb3d0e")
 		)
 		(pad "7" smd roundrect
 			(at -21 -3.5 90)
@@ -586,7 +586,7 @@
 			(net 22 "+12 T15")
 			(pinfunction "Pin_7")
 			(pintype "passive")
-			(uuid "c2c26547-06c9-40e7-9a09-db531231d9e0")
+			(uuid "eedf5b93-4929-464c-a6bf-1177cc4bf746")
 		)
 		(pad "12" smd roundrect
 			(at -38.5 -3.5 90)
@@ -606,7 +606,7 @@
 			(net 8 "START")
 			(pinfunction "Pin_12")
 			(pintype "passive")
-			(uuid "11ec2be9-553c-40f8-af7d-ee55559e9fad")
+			(uuid "34ce1737-2475-4c88-9e65-1379b829f4d5")
 		)
 		(pad "13" smd roundrect
 			(at -42 -3.5 90)
@@ -626,7 +626,7 @@
 			(net 13 "+12 T30")
 			(pinfunction "Pin_13")
 			(pintype "passive")
-			(uuid "d50a863c-4bce-4578-97a4-97371a78a2b5")
+			(uuid "b5bb5b00-527e-4acd-9e40-770284dc6db6")
 		)
 		(pad "14" smd roundrect
 			(at -45.5 -3.5 90)
@@ -646,7 +646,7 @@
 			(net 39 "+5V")
 			(pinfunction "Pin_14")
 			(pintype "passive")
-			(uuid "3976051d-121f-42fb-8355-4520a338dffa")
+			(uuid "e36b308a-a722-472a-85c9-2c0308bd0ac1")
 		)
 		(pad "15" smd roundrect
 			(at -49 -3.5 90)
@@ -666,7 +666,7 @@
 			(net 56 "Distance_pulse")
 			(pinfunction "Pin_15")
 			(pintype "passive")
-			(uuid "6ce0aa4d-9ba9-4093-83b3-077564c05502")
+			(uuid "187ea5dd-8a34-46a9-8115-4c5f25ba41a9")
 		)
 		(pad "16" smd roundrect
 			(at -52.5 -3.5 90)
@@ -686,7 +686,7 @@
 			(net 54 "Speed_pulse")
 			(pinfunction "Pin_16")
 			(pintype "passive")
-			(uuid "0d10ebc8-86c4-4d66-bc49-a81def9f3462")
+			(uuid "63884e93-25a2-4030-9686-1fbdc9ed0374")
 		)
 		(pad "17" smd roundrect
 			(at -56 -3.5 90)
@@ -706,7 +706,7 @@
 			(net 55 "cylinder_count")
 			(pinfunction "Pin_17")
 			(pintype "passive")
-			(uuid "0326932a-d56d-4da5-889e-98739728e802")
+			(uuid "f97acf53-7598-44d5-94e1-239bc4b9b2b7")
 		)
 		(pad "18" smd roundrect
 			(at -59.5 -3.5 90)
@@ -726,7 +726,7 @@
 			(net 58 "unconnected-(J5-Pin_18-Pad18)")
 			(pinfunction "Pin_18")
 			(pintype "passive+no_connect")
-			(uuid "612d93c4-8eeb-45f0-b693-29b0e013f3de")
+			(uuid "c39f4e53-23e5-4332-b08b-fce61476e39d")
 		)
 		(pad "19" smd roundrect
 			(at -63 -3.5 90)
@@ -746,7 +746,7 @@
 			(net 42 "Brake_wear_sig-")
 			(pinfunction "Pin_19")
 			(pintype "passive")
-			(uuid "531b5c60-65fe-4251-a381-b67bf07556c3")
+			(uuid "b8b09cd8-b20d-4cde-b9da-d141ce050847")
 		)
 		(embedded_fonts no)
 	)
@@ -26491,7 +26491,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Instrument cluster Nexus\nEarly Model"
+	(gr_text "Instrument cluster Nexus\nEarly Model Rev 3"
 		(at 34.5 160.3 0)
 		(layer "F.SilkS")
 		(uuid "1d8d139f-c46d-46ef-add8-6af92eb90a7d")
