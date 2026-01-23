@@ -3321,6 +3321,27 @@
 		)
 		(uuid "088c9266-e2b7-466a-b343-85ba4c054a32")
 	)
+	(text_box "NOTE: On non-O2 indicator boards, C1 is located where C8 is on O2 indicator boards. "
+		(exclude_from_sim no)
+		(at 210.82 25.4 0)
+		(size 24.13 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5160c201-02ad-4b13-b338-6be517081e4c")
+	)
 	(text_box "NOTE: R1 is a bias resistor which needs to be set depending on the specific speedometer gauge. This needs to be matched to the original resistor from your old board. "
 		(exclude_from_sim no)
 		(at 161.29 114.3 0)
