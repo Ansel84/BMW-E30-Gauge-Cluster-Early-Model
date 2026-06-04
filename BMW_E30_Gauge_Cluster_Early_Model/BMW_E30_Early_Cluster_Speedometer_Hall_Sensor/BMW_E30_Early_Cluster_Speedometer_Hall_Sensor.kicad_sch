@@ -6,7 +6,10 @@
 	(paper "A5")
 	(title_block
 		(title "BMW E30 Gauge Cluster Speedometer Hall Effect Sensor")
-		(company "Reagan Ansel")
+		(date "2026-06-03")
+		(rev "0")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -966,7 +969,7 @@
 			(uuid "79d8f0d6-4fa8-42ad-9cb4-2d85d4d9983e")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer_Hall_Sensor"
 				(path "/7f271e02-b00b-4673-9305-5a6306d2b1a7"
 					(reference "#PWR02")
 					(unit 1)
@@ -1172,7 +1175,7 @@
 			(uuid "d95eb774-5338-4270-962d-b170ade4e8a2")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer_Hall_Sensor"
 				(path "/7f271e02-b00b-4673-9305-5a6306d2b1a7"
 					(reference "#PWR01")
 					(unit 1)
@@ -1248,7 +1251,7 @@
 			(uuid "e063e1b4-92f2-4766-b1de-46acaad37518")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer_Hall_Sensor"
 				(path "/7f271e02-b00b-4673-9305-5a6306d2b1a7"
 					(reference "J1")
 					(unit 1)
@@ -1336,4 +1339,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "reans_sheet_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WD/Cu0XAPbhaSEA1TZqxSYVNDoEMnCBWkUAFLHYT8LfLc64wmSW/n9CwQRfAFoAZABfTlM7
+				Cd4PPZP4H186+DUZmyftazMZJC2P8bFwUWq25kUL8mvHwkXR9pEtP+RPAAACHc97OanDZJkyfiu6
+				ZexMnfGD2a9nCIBAQaOUVnXWvtiW2T8EQKDkgCwiGFoOIdn/etgijP3Ss7lq001Ur56Xy2XSChD4
+				izG0r9ol7kx06g/5X/6a1VV7XqJQDq990Dues9+Mwx979pw4IR4v7ePbb9d8i9eDM9hT/3WSxGHt
+				2uJ1q+pJaX8GA4vQjuDbzqhJOcfXfePbr1LR9rtrPIGhJBC7qR8kM8Z09g4omXCSTTKynjjiS1u1
+				q3CTj080beoGpaw+TAqJdN6Eq1gUW6JrkAYXdfWk9EBhnWkl7tsUFo7ieR1p0Ah/UJFzFgWBwsys
+				itUDRWfNENlvxpauoBUjcUhlrs3u12aulxf0XKs+aBalZRWr16FaFa1zTkqrrWV11qovCsPoB+Ee
+				j0iCNBBdsEPihDapC6udeZCNyxjfJvk4juFpWkVZjw3CObqFDYCaoBFNhdgMSQqSFDLMAYBEhObI
+				NmZkXfEEgg31YlRO4GceOtZZSD4tPZJ8rJ74G8PkjH1JKkKawsKGheoJuP2+IlY18ntrNC2s74Pr
+				DVe+cSgd0L7HteZMeDaXmooSSh/c+bVoVTYLk6RKN7Cv2UoaCAZv6YCSS6nbIQTWD7UwQeis5W/V
+				g0dYgB5CyE6HNFbmmlkm5KySJ6yIRrRM5Uc4pc8u9BJFUDGI5kCOG6xadygVBOu2LFloyz3FUwK0
+				K2QvICvncQgSH7pSFluywCLJ0Rwlm2f0GkYN7sFxT4mPYCI2kaL4bSAlPOhlas5v4CmJJDLxSXKn
+				Odp9OHfwRZI7o8xhC2+Z4AAEWT5Rojog0dbMToQXcXHPsDoOuhAAXPmNnp2jRa7V/EUBa9S+lvzC
+				Ux9y2yG0bmId6AOKOjzjaHSplt4lCml0x3i3uxaxGR+0Cg==|
+			)
+			(checksum "582015C87F5C50DCCFBFE692861C814F")
+		)
+	)
 )

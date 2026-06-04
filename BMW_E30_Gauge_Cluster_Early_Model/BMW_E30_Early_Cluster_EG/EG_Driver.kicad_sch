@@ -6,8 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "BMW E30 Gauge Cluster Fuel Economy Gauge")
-		(company "Reagan Ansel")
-		(comment 1 "NOTE: All resistors are 5% tolorance unless otherwise noted")
+		(date "2026-06-03")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
+		(comment 2 "NOTE: All resistors are 5% tolorance unless otherwise noted")
 	)
 	(lib_symbols
 		(symbol "4xxx:4049"
@@ -8635,7 +8637,7 @@
 			(uuid "0f9eaa47-cafc-4e66-8948-f7522861d00b")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737/523a037d-2c6e-49de-a758-40f01dbf4536"
 					(reference "SW1")
 					(unit 1)

@@ -6,7 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "BMW E30 Speedometer Driver Schematic")
-		(company "Reagan Ansel")
+		(date "2026-06-03")
+		(rev "0")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "BMW_ICs:UAF2115"
@@ -5489,7 +5492,7 @@
 			(uuid "473774a3-ee4f-41cd-a7a9-d439020ccc35")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "Q2")
 					(unit 1)
@@ -5555,7 +5558,7 @@
 			(uuid "8b3a83aa-cc42-4c03-b112-df4d3d4d9c9c")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "#PWR04")
 					(unit 1)
@@ -5630,7 +5633,7 @@
 			(uuid "15ca27b3-ddd2-4a46-ae1f-86d9a3bde06f")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "J3")
 					(unit 1)
@@ -5803,7 +5806,7 @@
 			(uuid "3f70a08e-3afa-40b5-93f1-7f13fd33258b")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "U1")
 					(unit 1)
@@ -6013,7 +6016,7 @@
 			(uuid "1e255666-9268-459c-ae73-f3f575be4af6")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "F1")
 					(unit 1)
@@ -6101,7 +6104,7 @@
 			(uuid "8e453a48-16e4-4c51-8ad6-d7ec836721c4")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "D1")
 					(unit 1)
@@ -6171,7 +6174,7 @@
 			(uuid "9c929773-0dc7-4b72-ad79-5b42bdde5ea5")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "D6")
 					(unit 1)
@@ -6654,7 +6657,7 @@
 			(uuid "159ab259-f8e9-4b44-a59e-f918e795b895")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "C1")
 					(unit 1)
@@ -6742,7 +6745,7 @@
 			(uuid "eedcc7b4-83df-4a86-a72e-fe811cb39865")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "D2")
 					(unit 1)
@@ -6874,7 +6877,7 @@
 			(uuid "f37a547f-7f45-4817-ac5a-67bc07a03024")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "#PWR01")
 					(unit 1)
@@ -7169,7 +7172,7 @@
 			(uuid "8bea795b-d192-42ef-9997-a1c9223a84da")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "MES1")
 					(unit 1)
@@ -7585,7 +7588,7 @@
 			(uuid "4dd77e93-d8c3-4c85-ae7e-76b1b1a39988")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "J2")
 					(unit 1)
@@ -7859,7 +7862,7 @@
 			(uuid "1cce9234-c9e8-4e62-9bf3-3223ca36c9c2")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "Q1")
 					(unit 1)
@@ -8580,7 +8583,7 @@
 			(uuid "3d11207c-3814-4adf-80bf-ad2d44bfe9d1")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "M1")
 					(unit 1)
@@ -9056,7 +9059,7 @@
 			(uuid "74b73daf-5c0b-490f-bdc7-5adb2d6a6a14")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "R1")
 					(unit 1)
@@ -9136,7 +9139,7 @@
 			(uuid "74fce5b3-6b1e-4feb-9e27-77afb2175ad5")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_Speedometer"
 				(path "/9a835706-2a71-4b4d-aadf-5c5569044960"
 					(reference "J1")
 					(unit 1)
@@ -9286,4 +9289,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "reans_sheet_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WD/Cu0XAPbhaSEA1TZqxSYVNDoEMnCBWkUAFLHYT8LfLc64wmSW/n9CwQRfAFoAZABfTlM7
+				Cd4PPZP4H186+DUZmyftazMZJC2P8bFwUWq25kUL8mvHwkXR9pEtP+RPAAACHc97OanDZJkyfiu6
+				ZexMnfGD2a9nCIBAQaOUVnXWvtiW2T8EQKDkgCwiGFoOIdn/etgijP3Ss7lq001Ur56Xy2XSChD4
+				izG0r9ol7kx06g/5X/6a1VV7XqJQDq990Dues9+Mwx979pw4IR4v7ePbb9d8i9eDM9hT/3WSxGHt
+				2uJ1q+pJaX8GA4vQjuDbzqhJOcfXfePbr1LR9rtrPIGhJBC7qR8kM8Z09g4omXCSTTKynjjiS1u1
+				q3CTj080beoGpaw+TAqJdN6Eq1gUW6JrkAYXdfWk9EBhnWkl7tsUFo7ieR1p0Ah/UJFzFgWBwsys
+				itUDRWfNENlvxpauoBUjcUhlrs3u12aulxf0XKs+aBalZRWr16FaFa1zTkqrrWV11qovCsPoB+Ee
+				j0iCNBBdsEPihDapC6udeZCNyxjfJvk4juFpWkVZjw3CObqFDYCaoBFNhdgMSQqSFDLMAYBEhObI
+				NmZkXfEEgg31YlRO4GceOtZZSD4tPZJ8rJ74G8PkjH1JKkKawsKGheoJuP2+IlY18ntrNC2s74Pr
+				DVe+cSgd0L7HteZMeDaXmooSSh/c+bVoVTYLk6RKN7Cv2UoaCAZv6YCSS6nbIQTWD7UwQeis5W/V
+				g0dYgB5CyE6HNFbmmlkm5KySJ6yIRrRM5Uc4pc8u9BJFUDGI5kCOG6xadygVBOu2LFloyz3FUwK0
+				K2QvICvncQgSH7pSFluywCLJ0Rwlm2f0GkYN7sFxT4mPYCI2kaL4bSAlPOhlas5v4CmJJDLxSXKn
+				Odp9OHfwRZI7o8xhC2+Z4AAEWT5Rojog0dbMToQXcXHPsDoOuhAAXPmNnp2jRa7V/EUBa9S+lvzC
+				Ux9y2yG0bmId6AOKOjzjaHSplt4lCml0x3i3uxaxGR+0Cg==|
+			)
+			(checksum "582015C87F5C50DCCFBFE692861C814F")
+		)
+	)
 )

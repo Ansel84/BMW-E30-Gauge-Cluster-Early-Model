@@ -6,8 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "BMW E30 Gauge Cluster Fuel Economy Gauge")
-		(company "Reagan Ansel")
-		(comment 1 "NOTE: All resistors are 5% tolorance unless otherwise noted")
+		(date "2026-06-03")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
+		(comment 2 "NOTE: All resistors are 5% tolorance unless otherwise noted")
 	)
 	(lib_symbols
 		(symbol "4xxx_IEEE:4584"
@@ -5654,7 +5656,7 @@
 			(uuid "5195a4b4-16ad-40b1-aaf7-66ceed481061")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR07")
 					(unit 1)
@@ -5732,7 +5734,7 @@
 			(uuid "3b39107a-1b16-4d59-8081-c150dc4fec77")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "C2")
 					(unit 1)
@@ -5864,7 +5866,7 @@
 			(uuid "fa6a04ac-343c-4807-8db1-ca3d71ab567e")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR012")
 					(unit 1)
@@ -5962,7 +5964,7 @@
 			(uuid "e41358cb-df93-45f5-9e9e-15a4f893ff46")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "J1")
 					(unit 1)
@@ -6208,7 +6210,7 @@
 			(uuid "2956ebce-1c6e-4b77-8edd-d2d0a791a873")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U5")
 					(unit 1)
@@ -6719,7 +6721,7 @@
 			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91b")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U2")
 					(unit 6)
@@ -6941,7 +6943,7 @@
 			(uuid "5d5e6a6d-cb67-4eb5-9be4-4ac9cea02f3c")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR09")
 					(unit 1)
@@ -7045,7 +7047,7 @@
 			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91c")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U2")
 					(unit 2)
@@ -7199,7 +7201,7 @@
 			(uuid "b462ee1c-b262-4d22-b732-97d3c2875cca")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "D1")
 					(unit 1)
@@ -7333,7 +7335,7 @@
 			(uuid "397c77c4-79d7-4c1a-b38a-dedfe0fc1942")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR04")
 					(unit 1)
@@ -7437,7 +7439,7 @@
 			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91d")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U2")
 					(unit 5)
@@ -7575,7 +7577,7 @@
 			(uuid "58c43e17-f1f5-4d97-ba5e-affd44969ffc")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "R2")
 					(unit 1)
@@ -7846,7 +7848,7 @@
 			(uuid "0b726c95-dbf8-4d21-924e-de24532ee6ca")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR08")
 					(unit 1)
@@ -8064,7 +8066,7 @@
 			(uuid "68a4743a-c8b4-44cc-9116-d7d8a90cf45d")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U4")
 					(unit 1)
@@ -8328,7 +8330,7 @@
 			(uuid "1c5a9286-7832-4312-8e11-907ecb8ed036")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR06")
 					(unit 1)
@@ -8396,7 +8398,7 @@
 			(uuid "cefdab22-bd0f-4d3a-8e84-ae2255891efd")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "R1")
 					(unit 1)
@@ -8475,7 +8477,7 @@
 			(uuid "d588d026-4144-42d4-8477-5031623b710e")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "C1")
 					(unit 1)
@@ -8554,7 +8556,7 @@
 			(uuid "e2d71191-611a-489a-ae39-eb015f853dfe")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "J2")
 					(unit 1)
@@ -8686,7 +8688,7 @@
 			(uuid "785579d0-22cf-4fc0-8bb7-390783adabb7")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR03")
 					(unit 1)
@@ -8824,7 +8826,7 @@
 			(uuid "f2287481-dd45-4ec4-8500-03382576cfda")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U7")
 					(unit 1)
@@ -9060,7 +9062,7 @@
 			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91e")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U2")
 					(unit 1)
@@ -9309,7 +9311,7 @@
 			(uuid "5102f8a8-7db8-42bd-9374-070a8964c91f")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U2")
 					(unit 4)
@@ -9595,7 +9597,7 @@
 			(uuid "68a4743a-c8b4-44cc-9116-d7d8a90cf45e")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "U4")
 					(unit 3)
@@ -9671,7 +9673,7 @@
 			(uuid "49c28869-0ec9-4af5-947c-75e187a37902")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "Q1")
 					(unit 1)
@@ -9803,7 +9805,7 @@
 			(uuid "9aa1ac5d-4892-48f0-b23c-f459c5b3cefb")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR02")
 					(unit 1)
@@ -10293,7 +10295,7 @@
 			(uuid "89183b7a-003a-45df-9d8f-ae70f0bce53f")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR01")
 					(unit 1)
@@ -10359,7 +10361,7 @@
 			(uuid "20c0e904-80d2-4ad1-a80c-94965763945c")
 		)
 		(instances
-			(project "BMW_E30_Early_Cluster_Tachometer"
+			(project "BMW_E30_Early_Cluster_EG"
 				(path "/b216cb44-2546-4a52-a541-225697d17737"
 					(reference "#PWR05")
 					(unit 1)
@@ -10465,4 +10467,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "reans_sheet_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WD/Cu0XAPbhaSEA1TZqxSYVNDoEMnCBWkUAFLHYT8LfLc64wmSW/n9CwQRfAFoAZABfTlM7
+				Cd4PPZP4H186+DUZmyftazMZJC2P8bFwUWq25kUL8mvHwkXR9pEtP+RPAAACHc97OanDZJkyfiu6
+				ZexMnfGD2a9nCIBAQaOUVnXWvtiW2T8EQKDkgCwiGFoOIdn/etgijP3Ss7lq001Ur56Xy2XSChD4
+				izG0r9ol7kx06g/5X/6a1VV7XqJQDq990Dues9+Mwx979pw4IR4v7ePbb9d8i9eDM9hT/3WSxGHt
+				2uJ1q+pJaX8GA4vQjuDbzqhJOcfXfePbr1LR9rtrPIGhJBC7qR8kM8Z09g4omXCSTTKynjjiS1u1
+				q3CTj080beoGpaw+TAqJdN6Eq1gUW6JrkAYXdfWk9EBhnWkl7tsUFo7ieR1p0Ah/UJFzFgWBwsys
+				itUDRWfNENlvxpauoBUjcUhlrs3u12aulxf0XKs+aBalZRWr16FaFa1zTkqrrWV11qovCsPoB+Ee
+				j0iCNBBdsEPihDapC6udeZCNyxjfJvk4juFpWkVZjw3CObqFDYCaoBFNhdgMSQqSFDLMAYBEhObI
+				NmZkXfEEgg31YlRO4GceOtZZSD4tPZJ8rJ74G8PkjH1JKkKawsKGheoJuP2+IlY18ntrNC2s74Pr
+				DVe+cSgd0L7HteZMeDaXmooSSh/c+bVoVTYLk6RKN7Cv2UoaCAZv6YCSS6nbIQTWD7UwQeis5W/V
+				g0dYgB5CyE6HNFbmmlkm5KySJ6yIRrRM5Uc4pc8u9BJFUDGI5kCOG6xadygVBOu2LFloyz3FUwK0
+				K2QvICvncQgSH7pSFluywCLJ0Rwlm2f0GkYN7sFxT4mPYCI2kaL4bSAlPOhlas5v4CmJJDLxSXKn
+				Odp9OHfwRZI7o8xhC2+Z4AAEWT5Rojog0dbMToQXcXHPsDoOuhAAXPmNnp2jRa7V/EUBa9S+lvzC
+				Ux9y2yG0bmId6AOKOjzjaHSplt4lCml0x3i3uxaxGR+0Cg==|
+			)
+			(checksum "582015C87F5C50DCCFBFE692861C814F")
+		)
+	)
 )
