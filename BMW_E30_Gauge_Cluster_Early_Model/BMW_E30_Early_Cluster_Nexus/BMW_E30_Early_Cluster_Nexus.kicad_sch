@@ -7398,7 +7398,7 @@
 		)
 	)
 	(global_label "Brake_wear_sig+"
-		(shape input)
+		(shape output)
 		(at 43.18 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7464,7 +7464,7 @@
 		)
 	)
 	(global_label "Brake_wear_ind+"
-		(shape input)
+		(shape output)
 		(at 43.18 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7508,7 +7508,7 @@
 		)
 	)
 	(global_label "Brake_wear_sig-"
-		(shape input)
+		(shape output)
 		(at 224.79 40.64 0)
 		(fields_autoplaced yes)
 		(effects
