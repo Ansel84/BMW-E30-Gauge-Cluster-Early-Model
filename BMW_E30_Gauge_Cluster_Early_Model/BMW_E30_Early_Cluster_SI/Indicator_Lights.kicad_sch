@@ -2640,7 +2640,7 @@
 			(uuid "54a271ba-c653-46c4-842c-3ac5353dedcd")
 		)
 		(instances
-			(project "BMW_E30_Late_Cluster_SI"
+			(project "BMW_E30_Early_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
 					(reference "J2")
 					(unit 1)
@@ -3650,7 +3650,7 @@
 			(uuid "40d7b83b-ee84-4503-9b82-b063ecd7c33d")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Early_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
 					(reference "R4")
 					(unit 1)
